@@ -4,7 +4,7 @@ import Counter from '../components/Counter'
 
 export default function Writing() {
   return (
-    <section className='bg-white/80 px-12 pt-12 pb-12'>
+    <section className='bg-white/80 px-8 pt-12 pb-12'>
         <div className='space-y-3.5 py-24'>
             <h1 className='font-semibold text-xl md:text-2xl lg:text-3xl text-center'>Writing that SPEAKS, Stories that LAST</h1>
             <p className='text-center'>Words have the power to linger long after the final page is turned.</p>
