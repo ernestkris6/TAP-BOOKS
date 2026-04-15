@@ -13,7 +13,7 @@ export default function Writing() {
 
         {/* Story of tapbooks */}
 
-    <div className="py-12 px-6">
+    <div className="py-12">
       <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-14 items-center">
 
         {/* LEFT SIDE (can be image later) */}
