@@ -25,14 +25,14 @@ export default function HeroSection() {
           {/* Buttons */}
           <div className="flex flex-wrap gap-4 pt-4">
             <Link to="books">
-              <button className="bg-black text-white px-6 py-3 rounded-xs hover:bg-gray-800 transition duration-300">
+              <button className="bg-stone-700 text-white px-6 py-3 rounded-xs hover:bg-gray-800 transition duration-300">
                 Explore Books
               </button>
             </Link>
 
             <Link to="/author">
               <button className="border border-black px-6 py-3 rounded-xs hover:bg-black hover:text-white transition duration-300">
-                About the Author
+                Chat with US
               </button>
             </Link>
           </div>

@@ -4,8 +4,8 @@ import Counter from '../components/Counter'
 
 export default function Writing() {
   return (
-    <section>
-        <div className='px-12 pt-12 pb-6 space-y-3.5'>
+    <section className='bg-white/80 px-12 pt-12 pb-12'>
+        <div className='space-y-3.5 py-24'>
             <h1 className='font-semibold text-xl md:text-2xl lg:text-3xl text-center'>Writing that SPEAKS, Stories that LAST</h1>
             <p className='text-center'>Words have the power to linger long after the final page is turned.</p>
             <p className='text-center'>Here, you find stories shaped with care, crafted to stir emotions beautiful enough to stay with you. </p>
@@ -13,12 +13,12 @@ export default function Writing() {
 
         {/* Story of tapbooks */}
 
-    <div className="bg-white py-12 px-6">
+    <div className="py-12 px-6">
       <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-14 items-center">
 
         {/* LEFT SIDE (can be image later) */}
         <div className="">
-            <img className='' src={writer} alt="" />
+            <img className='rounded-sm' src={writer} alt="" />
      
 
           {/* decorative floating shape */}
@@ -35,12 +35,12 @@ export default function Writing() {
 
           {/* Header */}
           <div>
-            <p className="text-sm uppercase tracking-widest text-stone-900 pt-1 md:pt-0">
+            <p className="text-sm uppercase tracking-widest text-stone-500 pt-1 md:pt-0">
               The story of
             </p>
 
-            <h2 className="text-4xl md:text-5xl font-serif font-bold text-stone-900 mt-2">
-              TAPS BOOKS
+            <h2 className="text-4xl md:text-5xl font-serif font-bold text-stone-700 mt-2">
+              TAP BOOKS
             </h2>
           </div>
 
@@ -70,26 +70,22 @@ export default function Writing() {
 
             <div className="flex-1 text-center">
              <Counter end={10} label="Books Published" />
-              <p className="text-4xl font-serif font-bold text-stone-700">
+              {/* <p className="text-4xl font-serif font-bold text-stone-700">
                 10
-              </p>
-              <p className="text-gray-600 mt-1">Books Published</p>
+              </p> */}
+              {/* <p className="text-gray-600 mt-1">Books Published</p> */}
             </div>
 
             <div className="flex-1 text-center">
-              <p className="text-4xl font-serif font-bold text-stone-700">
+                <Counter end={4} label="Best Selling Books" />
+              {/* <p className="text-4xl font-serif font-bold text-stone-700">
                 07
-              </p>
-              <p className="text-gray-600 mt-1">Best Selling Books</p>
+              </p> */}
+              {/* <p className="text-gray-600 mt-1">Best Selling Books</p> */}
 
-              <div className="mt-10 border-t border-b border-amber-200 py-8 flex flex-col sm:flex-row gap-8 sm:gap-0 sm:divide-x sm:divide-amber-200">
-
-
-  
-
-</div>
+              {/* <div className="mt-10 border-t border-b border-amber-200 py-8 flex flex-col sm:flex-row gap-8 sm:gap-0 sm:divide-x sm:divide-amber-200">
+                </div> */}
             </div>
-
           </div>
         </div>
       </div>
