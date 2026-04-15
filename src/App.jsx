@@ -6,6 +6,7 @@ import Books from "./pages/Books";
 import Contact from "./pages/Contact";
 import Author from "./pages/Author";
 import Checkout from "./pages/Checkout";
+import Footer from "./ui/Footer"
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
           <Route path="author" element={<Author />} />
           <Route path="checkout" element={<Checkout />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   )
