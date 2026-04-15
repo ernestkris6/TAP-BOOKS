@@ -1,5 +1,6 @@
 import React from 'react'
 import writer from '../assets/writer.jpg'
+import Counter from '../components/Counter'
 
 export default function Writing() {
   return (
@@ -68,6 +69,7 @@ export default function Writing() {
           <div className="mt-10 border-t border-b border-stone-200 py-8 flex flex-col sm:flex-row gap-8 sm:gap-0 sm:divide-x sm:divide-stone-200">
 
             <div className="flex-1 text-center">
+             <Counter end={10} label="Books Published" />
               <p className="text-4xl font-serif font-bold text-stone-700">
                 10
               </p>
@@ -79,6 +81,13 @@ export default function Writing() {
                 07
               </p>
               <p className="text-gray-600 mt-1">Best Selling Books</p>
+
+              <div className="mt-10 border-t border-b border-amber-200 py-8 flex flex-col sm:flex-row gap-8 sm:gap-0 sm:divide-x sm:divide-amber-200">
+
+
+  
+
+</div>
             </div>
 
           </div>
