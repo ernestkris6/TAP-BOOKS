@@ -1,4 +1,7 @@
 import { Link } from "react-router-dom";
+import image1 from '../assets/image1.jpg';
+import image4 from '../assets/image4.jpg'
+import image3 from '../assets/image3.jpg'
 
 export default function HeroSection() {
 
@@ -46,21 +49,21 @@ export default function HeroSection() {
 
           {/* Back Image */}
           <img
-            src="https://images.unsplash.com/photo-1512820790803-83ca734da794"
+            src={image1}
             alt="Library"
             className="absolute top-[-30px] left-[-40px] w-[200px] md:w-[260px] h-[260px] md:h-[320px] object-cover rounded-2xl shadow-lg rotate-[-6deg] opacity-90 transition-transform duration-500 hover:scale-105"
           />
 
           {/* Main Image */}
           <img
-            src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f"
+            src={image4}
             alt="Books"
             className="w-[280px] md:w-[360px] h-[380px] md:h-[480px] object-cover rounded-2xl shadow-xl z-20 transition-transform duration-500 hover:scale-105"
           />
 
           {/* Front Image */}
           <img
-            src="https://images.unsplash.com/photo-1495446815901-a7297e633e8d"
+            src={image3}
             alt="Reading"
             className="absolute bottom-[-30px] right-[-30px] w-[180px] md:w-[220px] h-[220px] md:h-[260px] object-cover rounded-2xl shadow-lg rotate-[6deg] opacity-95 transition-transform duration-500 hover:scale-105"
           />

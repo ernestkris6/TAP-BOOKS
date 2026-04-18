@@ -40,10 +40,11 @@ export default function Navbar() {
             Contact
           </NavLink>
 
+          {/* &rarr; */}
           {/* CTA Button */}
           <Link to="/author">
             <button className="bg-transparent text-black/50 px-5 py-2 border rounded-xs hover:bg-gray-800 hover:text-white transition">
-              About Author &rarr;
+              About the Author 
             </button>
           </Link>
         </div>
