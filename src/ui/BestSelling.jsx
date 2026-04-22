@@ -25,7 +25,7 @@ const books = [
   },
 ];
 
-export default function BestSellingBooks() {
+export default function BestSelling() {
   return (
     <section className="bg-blue-50  py-20 px-6">
       <div className="max-w-7xl mx-auto">
@@ -69,11 +69,15 @@ export default function BestSellingBooks() {
 
               {/* CTA */}
               <div className="flex justify-center items-center gap-2 hover:gap-3 ">
-                <button className="group text-amber-800 border-b pb-1 cursor-pointer transition-all">{book.btn}
+                {/* <button className="group text-amber-800 border-b pb-1 cursor-pointer transition-all">{book.btn}
                 <span className="group-hover:translate-x-1 transition-transform">
                     →
                 </span>
-              </button>
+              </button> */}
+              <button className="group inline-flex items-center gap-2 text-amber-900 border-b font-medium cursor-pointer">
+            {book.btn}
+            <span className="transition-transform group-hover:translate-x-1">→</span>
+          </button>
               </div>
               
             </div>
@@ -84,9 +88,22 @@ export default function BestSellingBooks() {
     </section>
   );
 }
+//  <div className="border-t border-[#d8cfc5] w-full" />
+
+//           {/* CTA */}
+//           <button className="group inline-flex items-center gap-2 text-gray-900 border-b font-medium">
+//             Get Tickets To The Event
+//             <span className="transition-transform group-hover:translate-x-1">→</span>
+//           </button>
+//         </div>
 
 
-//group flex items-center gap-2 text-gray-700 border-b border-gray-400 pb-1 hover:gap-3 transition-all
+
+
+
+
+
+// group flex items-center gap-2 text-gray-700 border-b border-gray-400 pb-1 hover:gap-3 transition-all
 
 
 
