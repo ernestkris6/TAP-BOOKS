@@ -50,11 +50,11 @@ export default function Writing() {
           {/* Description */}
           <div className="space-y-4 text-stone-600 leading-relaxed text-base">
             <p>
-              Dapibus id interdum fusce sed odio massa tellus amet, faucibus nibh consequat justo mauris, donec nec tempus in volutpat iaculis pellentesque in urna.
+              TAP Books was founded on a deep love for storytelling and the belief that words have the power to shape minds and inspire change. Each book we publish is carefully crafted to connect with readers, spark imagination, and leave a meaningful impact long after the final page is turned.
             </p>
 
             <p>
-              Diam, urna, ornare leo facilisis suspendisse eu rutrum id augue cursus tincidunt nisl eget ornare pharetra ac pharetra, pulvinar ipsum sed amet diam morbi amet cursus blandit augue feugiat arcu aliquet egestas id diam rhoncus, mollis arcu pharetra quis duis morbi a nunc diam mauris ut tortor ipsum.
+              Stories have the power to transform the way we see the world—and at TAP Books, that belief drives everything we do.
             </p>
           </div>
 
