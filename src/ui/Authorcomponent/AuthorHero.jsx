@@ -1,5 +1,6 @@
-import { FaArrowRight } from "react-icons/fa";
+import { FaArrowRight, FaBook, FaPen } from "react-icons/fa";
 import image2 from '../../assets/image2.jpg';
+import { FaBookBible, FaHeart, FaPencil } from "react-icons/fa6";
 
 export default function AuthorHero() {
   return (
@@ -48,7 +49,9 @@ export default function AuthorHero() {
 
           {/* Item 1 */}
           <div className="flex flex-col items-center gap-3">
-            <div className="text-[#A68A64] text-3xl">📖</div>
+            <div className="text-[#A68A64] text-3xl">
+                <FaBook fill="false"/>
+            </div>
             <h3 className="font-medium text-lg">Storyteller</h3>
             <p className="text-gray-600 text-sm">
               Crafting stories that inspire and connect.
@@ -57,7 +60,10 @@ export default function AuthorHero() {
 
           {/* Item 2 */}
           <div className="flex flex-col items-center gap-3 border-y md:border-y-0 md:border-x border-gray-200 py-6 md:py-0">
-            <div className="text-[#A68A64] text-3xl">✒️</div>
+            <div className="text-[#A68A64] text-3xl">
+    
+                <FaPencil fill="false" />
+            </div>
             <h3 className="font-medium text-lg">Passionate Writer</h3>
             <p className="text-gray-600 text-sm">
               Turning ideas and moments into meaningful words.
@@ -66,7 +72,9 @@ export default function AuthorHero() {
 
           {/* Item 3 */}
           <div className="flex flex-col items-center gap-3">
-            <div className="text-[#A68A64] text-3xl">🤍</div>
+            <div className="text-[#A68A64] text-3xl">
+                <FaHeart fill="false"/>
+            </div>
             <h3 className="font-medium text-lg">Purpose Driven</h3>
             <p className="text-gray-600 text-sm">
               Sharing stories that leave a lasting impact.

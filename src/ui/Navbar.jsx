@@ -43,10 +43,8 @@ export default function Navbar() {
 
       
                 {/* CTA Button */}
-                <NavLink className="bg-transparent text-black px-5 py-2 border hover:bg-black hover:text-white transition cursor-pointer rounded-xs" to="/author">
-                  <button>
-                    Meet the Author 
-                  </button>
+                <NavLink to="/author" className="bg-transparent text-black px-5 py-2 border hover:bg-black hover:text-white transition cursor-pointer rounded-xs" >
+                    Meet the Author  
                 </NavLink>
               </div>
 

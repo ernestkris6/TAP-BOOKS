@@ -70,6 +70,7 @@ export default function Footer() {
           <FiMail className="w-5 h-5 hover:text-black/80 cursor-pointer" />
         </div>
       </div>
+        <hr className="py-2 text-stone-200"/>
 
       {/* Copyright */}
       <div className="text-center text-sm text-gray-500">
