@@ -34,7 +34,7 @@ export default function Events() {
           <div className="flex flex-col sm:flex-row sm:items-center sm:gap-8 gap-4 text-gray-700">
             <div className="flex items-center gap-2">
               <span><FiPhone /></span>
-              <span>+234 701 0757 4608</span>
+              <span className="no-underline text-inherit">+234 701 0757 4608</span>
             </div>
 
             <div className="hidden sm:block h-5 w-px bg-[#d8cfc5]" />
