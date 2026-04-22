@@ -57,7 +57,7 @@ export default function Navbar() {
           onClick={() => setIsOpen(!isOpen)}
         >
           {/* {isOpen ? x <X size={26} /> : -<Menu size={26} />} */}
-          {isOpen ? <FiMenu /> : <FiX />}
+          {isOpen ? <FiX /> : <FiMenu /> }
         </button>
       </div>
 
