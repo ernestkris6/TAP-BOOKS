@@ -26,13 +26,13 @@ export default function Signature() {
         </p>
 
         {/* Main Quote */}
-        <h1 className="text-2xl md:text-4xl font-semibold leading-relaxed">
+        <h1 className="text-2xl md:text-4xl font-serif font-medium leading-relaxed">
           I write Stories for curious minds and kind hearts,
           no matter the age.
         </h1>
 
         {/* Author */}
-        <p className="mt-6 text-sm md:text-base opacity-90">
+        <p className="mt-6 text-sm font-serif md:text-base opacity-90">
           Temilorun Adebiyi
         </p>
       </div>

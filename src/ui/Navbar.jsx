@@ -44,11 +44,11 @@ export default function Navbar() {
 
           {/* &rarr; */}
           {/* CTA Button */}
-          <Link to="/author">
-            <button className="bg-transparent text-black/50 px-5 py-2 border rounded-xs hover:bg-gray-800 hover:text-white transition">
+          <NavLink className="bg-transparent text-black px-5 py-2 border hover:bg-black hover:text-white transition cursor-pointer cursor-pointer rounded-xs" to="/author">
+            <button>
               Meet the Author 
             </button>
-          </Link>
+          </NavLink>
         </div>
 
         {/* Mobile Toggle */}

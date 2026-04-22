@@ -7,10 +7,10 @@ export default function Writing() {
   return (
     <section className='bg-white/80 px-8 pt-12 pb-12'>
         <div className='space-y-3.5 py-24'>
-            <h1 className='font-serif font-medium text-xl md:text-2xl lg:text-3xl text-center leading-tight'>Writing that SPEAKS, Stories that LAST</h1>
+            <h1 className='font-serif font-medium text-stone-700 text-xl md:text-2xl lg:text-3xl text-center leading-tight'>Writing that SPEAKS, Stories that LAST</h1>
             <div>
-              <p className='text-center'>Words have the power to linger long after the final page is turned.</p>
-            <p className='text-center'>Here, you find stories shaped with care, crafted to stir emotions beautiful enough to stay with you. </p>
+              <p className='text-center text-stone-500'>Words have the power to linger long after the final page is turned.</p>
+            <p className='text-center text-stone-500'>Here, you find stories shaped with care, crafted to stir emotions beautiful enough to stay with you. </p>
             </div>
         </div>   
 
@@ -38,17 +38,17 @@ export default function Writing() {
 
           {/* Header */}
           <div>
-            <p className="text-sm uppercase tracking-widest text-stone-500 pt-1 md:pt-0">
+            <p className="text-sm uppercase tracking-widest text-stone-600 pt-1 md:pt-0">
               The story of
             </p>
 
-            <h2 className="text-4xl md:text-5xl font-serif font-bold text-stone-700 mt-2">
+            <h2 className="text-4xl md:text-5xl font-serif font-medium text-stone-700 mt-2">
               TAP BOOKS
             </h2>
           </div>
 
           {/* Description */}
-          <div className="space-y-4 text-gray-600 leading-relaxed text-base md:text-lg">
+          <div className="space-y-4 text-stone-600 leading-relaxed text-base">
             <p>
               Dapibus id interdum fusce sed odio massa tellus amet, faucibus nibh consequat justo mauris, donec nec tempus in volutpat iaculis pellentesque in urna.
             </p>
@@ -60,7 +60,7 @@ export default function Writing() {
 
           {/* Button */}
           <div>
-            <button className="group inline-flex items-center gap-2 text-black font-medium border-b-2 border-stone-500 pb-1 hover:gap-3 transition-all duration-300">
+            <button className="group inline-flex items-center gap-2 text-black/80 font-medium border-b-2 border-stone-500 pb-1 hover:gap-3 transition-all duration-300">
               Read More
               <span className="group-hover:translate-x-1 transition-transform">
                 →
@@ -70,25 +70,24 @@ export default function Writing() {
 
           {/* Stats */}
           <div className="mt-10 border-t border-b border-stone-200 py-8 flex flex-col sm:flex-row gap-8 sm:gap-0 sm:divide-x sm:divide-stone-200">
-
+   
             <div className="flex-1 text-center">
-             <Counter end={10} label="Books Published" />
-              {/* <p className="text-4xl font-serif font-bold text-stone-700">
-                10
-              </p> */}
-              {/* <p className="text-gray-600 mt-1">Books Published</p> */}
+                  <Counter 
+                    end={10} 
+                    label="Books Published" 
+                  />
             </div>
 
+                {/*Mid divider on mobile*/}
+              <div className="border-b h-6 text-stone-200 sm:hidden"/>
+            
             <div className="flex-1 text-center">
-                <Counter end={4} label="Best Selling Books" />
-              {/* <p className="text-4xl font-serif font-bold text-stone-700">
-                07
-              </p> */}
-              {/* <p className="text-gray-600 mt-1">Best Selling Books</p> */}
-
-              {/* <div className="mt-10 border-t border-b border-amber-200 py-8 flex flex-col sm:flex-row gap-8 sm:gap-0 sm:divide-x sm:divide-amber-200">
-                </div> */}
+                  <Counter 
+                    end={4} 
+                    label="Best Selling Books" 
+                  />
             </div>
+            
           </div>
         </div>
       </div>
@@ -105,3 +104,53 @@ export default function Writing() {
     
 //   );
 // }
+
+
+//  <section className="px-4 md:px-10 lg:px-20 py-10">
+
+//       {/* Top Divider */}
+//       <div className="border-t border-rose-300 mb-6"></div>
+
+//       {/* Wrapper */}
+//       <div
+//         className="
+//           flex flex-col items-start text-left
+//           md:items-center md:text-center
+//           lg:flex-row lg:items-center lg:justify-between lg:text-left
+//         "
+//       >
+
+//         {/* Item 1 */}
+//         <div className="flex items-center gap-4 py-4">
+//           <span className="text-5xl md:text-6xl lg:text-7xl text-[#A68A64] font-light">
+//             10
+//           </span>
+//           <p className="text-gray-800 text-sm md:text-base">
+//             Books Published
+//           </p>
+//         </div>
+
+//         {/* Divider */}
+//         <div
+//           className="
+//             hidden lg:block 
+//             w-px h-16 bg-rose-300
+//           "
+//         ></div>
+
+//         {/* Item 2 */}
+//         <div className="flex items-center gap-4 py-4">
+//           <span className="text-5xl md:text-6xl lg:text-7xl text-[#A68A64] font-light">
+//             07
+//           </span>
+//           <p className="text-gray-800 text-sm md:text-base">
+//             Best Selling Books
+//           </p>
+//         </div>
+
+//       </div>
+
+//       {/* Bottom Divider */}
+//       <div className="border-t border-rose-300 mt-6"></div>
+
+//     </section>

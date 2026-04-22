@@ -68,11 +68,13 @@ export default function BestSellingBooks() {
               </h3>
 
               {/* CTA */}
-              <button className="group gap-2 text-amber-700 border-b border-amber-500 pb-1 hover:gap-3 transition-all">{book.btn}
+              <div className="flex justify-center items-center gap-2 hover:gap-3 ">
+                <button className="group text-amber-800 border-b pb-1 cursor-pointer transition-all">{book.btn}
                 <span className="group-hover:translate-x-1 transition-transform">
                     →
                 </span>
               </button>
+              </div>
               
             </div>
           ))}
@@ -82,6 +84,9 @@ export default function BestSellingBooks() {
     </section>
   );
 }
+
+
+//group flex items-center gap-2 text-gray-700 border-b border-gray-400 pb-1 hover:gap-3 transition-all
 
 
 

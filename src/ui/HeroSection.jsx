@@ -21,7 +21,7 @@ export default function HeroSection() {
             Discover the magical journey
           </h1>
 
-          <p className="text-base text-gray-600 font-medium md:text-lg max-w-lg">
+          <p className="text-base text-gray-600 font-medium md:text-base max-w-lg">
             Step into stories filled with suspense, unforgettable characters and unexpected twists by <br /> TEMILORUN AEBIYI
           </p>
 
