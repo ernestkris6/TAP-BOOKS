@@ -1,4 +1,7 @@
+import { RiDoubleQuotesL } from "react-icons/ri";
 import image5 from "../assets/image5.jpg"; // replace with your image
+// import { FaQuoteLeft } from "react-icons/fa";
+
 
 export default function Signature() {
   return (
@@ -18,7 +21,9 @@ export default function Signature() {
       <div className="relative max-w-3xl text-white">
         
         {/* Quote Icon */}
-        <p className="text-5xl opacity-80 mb-4">“</p>
+        <p className="flex text-3xl md:text-4xl items-center justify-center opacity-80 mb-4">
+          <RiDoubleQuotesL />
+        </p>
 
         {/* Signature (optional stylized text) */}
         <p className="italic text-xl mb-6 opacity-90">

@@ -1,7 +1,23 @@
 import React from "react";
-// import { Twitter, Youtube, Facebook, Instagram } from "lucide-react";
+import { AiFillTikTok } from "react-icons/ai";
+import { NavLink } from "react-router-dom";
+// import { FaInstagram, FaWhatsapp } from "react-icons/fa";
+import { FiFacebook, FiInstagram, FiMail, FiTwitter, } from "react-icons/fi";
+import { SiTiktok, SiWhatsapp } from "react-icons/si";
+
 
 export default function Footer() {
+
+  // const navLinkClass = ({isActive}) => {
+  //   isActive ? "hover:text-black transition border-b-2" : "hover:text-black transition"
+  // }
+
+  const navLinkClass = ({ isActive }) =>
+    isActive
+      ? "text-black font-medium border-b-2 border-black pb-1"
+      : "text-gray-600 hover:text-black transition";
+
+
   return (
     <footer className="bg-[#f7f7f7] text-gray-800 px-6 py-20">
       {/* Heading */}
@@ -29,10 +45,11 @@ export default function Footer() {
       <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8 mb-10">
         {/* Nav */}
         <div className="flex gap-6 text-sm text-gray-600">
-          <a href="#" className="hover:text-black transition">Home</a>
-          <a href="#" className="hover:text-black transition">About</a>
-          <a href="#" className="hover:text-black transition">Books</a>
-          <a href="#" className="hover:text-black transition">Contact</a>
+          <NavLink to='/' className={navLinkClass}>Home</NavLink>
+          <NavLink to='about' className={navLinkClass}>About</NavLink>
+          <NavLink to='books' className={navLinkClass}>Books</NavLink>
+          <NavLink to='contact' className={navLinkClass}>Contact</NavLink>
+          <NavLink to='author'className={navLinkClass}>Author</NavLink>
         </div>
 
         {/* Brand */}
@@ -45,16 +62,18 @@ export default function Footer() {
 
         {/* Socials */}
         <div className="flex gap-5 text-gray-600">
-          {/* <Twitter className="w-5 h-5 hover:text-black cursor-pointer" /> */}
-          {/* <Youtube className="w-5 h-5 hover:text-black cursor-pointer" /> */}
-          {/* <Facebook className="w-5 h-5 hover:text-black cursor-pointer" /> */}
-          {/* <Instagram className="w-5 h-5 hover:text-black cursor-pointer" /> */}
+          <FiTwitter className="w-5 h-5 hover:text-black/80 cursor-pointer" />
+          <FiFacebook className="w-5 h-5 hover:text-black/80 cursor-pointer" />
+          <FiInstagram className="w-5 h-5 hover:text-black/80 cursor-pointer" />
+          <SiWhatsapp className="w-5 h-5 hover:text-black/80 cursor-pointer" />
+          <SiTiktok className="w-5 h-5 hover:text-black/80 cursor-pointer" />
+          <FiMail className="w-5 h-5 hover:text-black/80 cursor-pointer" />
         </div>
       </div>
 
       {/* Copyright */}
       <div className="text-center text-sm text-gray-500">
-        Copyright ©️ 2026 TAP Books
+        Copyright &copy; {new Date().getFullYear()} TAP Books
       </div>
     </footer>
   );

@@ -69,15 +69,12 @@ export default function BestSelling() {
 
               {/* CTA */}
               <div className="flex justify-center items-center gap-2 hover:gap-3 ">
-                {/* <button className="group text-amber-800 border-b pb-1 cursor-pointer transition-all">{book.btn}
-                <span className="group-hover:translate-x-1 transition-transform">
-                    →
-                </span>
-              </button> */}
-              <button className="group inline-flex items-center gap-2 text-amber-900 border-b font-medium cursor-pointer">
-            {book.btn}
-            <span className="transition-transform group-hover:translate-x-1">→</span>
-          </button>
+              <Link 
+                to='books' 
+                className="group inline-flex items-center gap-2 text-amber-900 border-b font-medium cursor-pointer">
+                  {book.btn}
+            <   span className="transition-transform group-hover:translate-x-1">→</span>
+              </Link>
               </div>
               
             </div>
@@ -88,111 +85,8 @@ export default function BestSelling() {
     </section>
   );
 }
-//  <div className="border-t border-[#d8cfc5] w-full" />
-
-//           {/* CTA */}
-//           <button className="group inline-flex items-center gap-2 text-gray-900 border-b font-medium">
-//             Get Tickets To The Event
-//             <span className="transition-transform group-hover:translate-x-1">→</span>
-//           </button>
-//         </div>
 
 
 
 
 
-
-
-// group flex items-center gap-2 text-gray-700 border-b border-gray-400 pb-1 hover:gap-3 transition-all
-
-
-
-// <button className="group gap-2 text-amber-700 border-b border-amber-500 pb-1 hover:gap-3 transition-all">
-//                 Order Your Copy
-//                 <span className="group-hover:translate-x-1 transition-transform">
-//                   →
-//                 </span>
-//               </button>
-
-
-
-
-
-
-
-
-
-
-
-
-
-// import React from 'react'
-// import { Link } from 'react-router-dom'
-// import image1 from '../assets/image1.jpg'
-// import image2 from '../assets/image2.jpg'
-// import image3 from '../assets/image3.jpg'
-
-
-
-// export default function BestSelling() {
-
-//     const books = [
-//         {
-//             id: 0,
-//             img: image1,
-//             name: "Mummy's Shopping List",
-//             btn: 'Order Your Copy',
-//             alt: "books",
-//         },
-//         {
-//             id: 1,
-//             img: image2,
-//             name: "Teni's Bus",
-//             btn: 'Order Your Copy',
-//             alt: "books"
-//         },
-//         {
-//             id: 2,
-//             img: image3,
-//             name: "Volley",
-//             btn: 'Order Your Copy',
-//             alt: "books",
-//         },
-//     ]
-
-//   return (
-//     <section className='px-12 py-12'>
-//         {/* header */}
-//         <div className='flex flex-col text-center md:text-current space-y-2 md:flex-row md:justify-between md:px-8'>
-//             <h1 className='text-xl md:text-3xl lg:text-4xl'>Best selling books</h1>
-//             <div>
-//             <button className="group inline-flex items-center gap-2 text-black font-medium border-b-2 border-stone-500 pb-1 hover:gap-3 transition-all duration-300">
-//               View All Books
-//               <span className="group-hover:translate-x-1 transition-transform">
-//                 →
-//               </span>
-//             </button>
-//             </div>
-
-//         </div>
-
-//         {/* books */}
-//         <div className='py-12 grid grid-cols-1 md:grid-cols-3 gap-12'>
-//             {books.map((book)=> (
-//                 <div key={book.id}>
-//                     <div className=''>
-//                         <img className='object-cover w-full h-[568px]' src={book.img} alt="" />
-//                     </div>
-//                     <div>
-//                         <p>{book.name}</p>
-//                     </div>
-//                     <div>
-//                         <button>{book.btn}</button>
-//                     </div>
-//                 </div>
-//             ))}
-//         </div>
-        
-//     </section>
-//   )
-// }
