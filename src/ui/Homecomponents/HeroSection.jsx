@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import image1 from '../assets/image1.jpg';
-import image4 from '../assets/image4.jpg'
-import image3 from '../assets/image3.jpg'
+import image1 from '../../assets/image1.jpg';
+import image4 from '../../assets/image4.jpg'
+import image3 from '../../assets/image3.jpg'
 
 export default function HeroSection() {
 

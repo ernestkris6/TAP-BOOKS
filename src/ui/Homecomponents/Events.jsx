@@ -1,5 +1,5 @@
 import React from "react";
-import image2 from '../assets/image2.jpg' 
+import image2 from '../../assets/image2.jpg' 
 import { FiMapPin, FiPhone } from "react-icons/fi";
 
 export default function Events() {

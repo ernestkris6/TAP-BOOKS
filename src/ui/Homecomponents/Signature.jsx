@@ -1,5 +1,5 @@
 import { RiDoubleQuotesL } from "react-icons/ri";
-import image5 from "../assets/image5.jpg"; // replace with your image
+import image5 from "../../assets/image5.jpg"; // replace with your image
 // import { FaQuoteLeft } from "react-icons/fa";
 
 

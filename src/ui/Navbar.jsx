@@ -43,7 +43,7 @@ export default function Navbar() {
 
       
                 {/* CTA Button */}
-                <NavLink className="bg-transparent text-black px-5 py-2 border hover:bg-black hover:text-white transition cursor-pointer cursor-pointer rounded-xs" to="/author">
+                <NavLink className="bg-transparent text-black px-5 py-2 border hover:bg-black hover:text-white transition cursor-pointer rounded-xs" to="/author">
                   <button>
                     Meet the Author 
                   </button>
@@ -87,11 +87,11 @@ export default function Navbar() {
               </NavLink>
               <hr className="text-black/20"/>
 
-              <Link to="/author" onClick={() => setIsOpen(false)}>
-                <button className="w-full bg-black text-white py-2 rounded-sm">
+              <NavLink to="/author" onClick={() => setIsOpen(false)}>
+                <button className="w-full bg-black text-white py-2 rounded-sm cursor-pointer">
                   About Author
                 </button>
-              </Link>
+              </NavLink>
           </div>
       </div>
     </nav>
