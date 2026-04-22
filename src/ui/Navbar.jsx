@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 // import { Menu, X } from "lucide-react";
 import Logo from '../ui/Logo';
+import { FiMenu, FiX } from 'react-icons/fi'
 
 
 export default function Navbar() {
@@ -10,7 +11,7 @@ export default function Navbar() {
 
   const navLinkClass = ({ isActive }) =>
     isActive
-      ? "text-black font-semibold border-b-2 border-black pb-1"
+      ? "text-black font-medium border-b-2 border-black pb-1"
       : "text-gray-600 hover:text-black transition";
 
   return (
@@ -40,22 +41,23 @@ export default function Navbar() {
             Contact
           </NavLink>
 
+
           {/* &rarr; */}
           {/* CTA Button */}
           <Link to="/author">
             <button className="bg-transparent text-black/50 px-5 py-2 border rounded-xs hover:bg-gray-800 hover:text-white transition">
-              About the Author 
+              Meet the Author 
             </button>
           </Link>
         </div>
 
         {/* Mobile Toggle */}
         <button
-          className="md:hidden text-gray-800"
+          className="md:hidden text-gray-800 transition cursor-pointer text-2xl"
           onClick={() => setIsOpen(!isOpen)}
         >
           {/* {isOpen ? x <X size={26} /> : -<Menu size={26} />} */}
-          {isOpen ? 'x' : '-'}
+          {isOpen ? <FiMenu /> : <FiX />}
         </button>
       </div>
 

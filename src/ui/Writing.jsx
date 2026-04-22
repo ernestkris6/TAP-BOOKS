@@ -2,13 +2,16 @@ import React from 'react'
 import writer from '../assets/writer.jpg'
 import Counter from '../components/Counter'
 
+//text-3xl md:text-4xl lg:text-5xl font-serif font-medium text-gray-900 leading-tight
 export default function Writing() {
   return (
     <section className='bg-white/80 px-8 pt-12 pb-12'>
         <div className='space-y-3.5 py-24'>
-            <h1 className='font-semibold text-xl md:text-2xl lg:text-3xl text-center'>Writing that SPEAKS, Stories that LAST</h1>
-            <p className='text-center'>Words have the power to linger long after the final page is turned.</p>
+            <h1 className='font-serif font-medium text-xl md:text-2xl lg:text-3xl text-center leading-tight'>Writing that SPEAKS, Stories that LAST</h1>
+            <div>
+              <p className='text-center'>Words have the power to linger long after the final page is turned.</p>
             <p className='text-center'>Here, you find stories shaped with care, crafted to stir emotions beautiful enough to stay with you. </p>
+            </div>
         </div>   
 
         {/* Story of tapbooks */}
