@@ -13,7 +13,7 @@ export default function HeroSection() {
       <div className="max-w-7xl mx-auto px-6 py-20 md:py-28 grid md:grid-cols-2 gap-12 items-center">
         
         {/* LEFT CONTENT */}
-        <div className="space-y-3 animate-[fadeIn_1s_ease-in-out]">
+        <div className="space-y-3">
             <p className="text-gray-600">
                 Best Selling Book
             </p>
@@ -21,7 +21,7 @@ export default function HeroSection() {
             Discover the magical journey
           </h1>
 
-          <p className="text-gray-600 font-medium text-lg max-w-lg">
+          <p className="text-base text-gray-600 font-medium md:text-lg max-w-lg">
             Step into stories filled with suspense, unforgettable characters and unexpected twists by <br /> TEMILORUN AEBIYI
           </p>
 

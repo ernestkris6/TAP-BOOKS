@@ -59,6 +59,7 @@ export default function Navbar() {
           {/* {isOpen ? x <X size={26} /> : -<Menu size={26} />} */}
           {isOpen ? <FiX /> : <FiMenu /> }
         </button>
+        
       </div>
 
       {/* Mobile Menu */}

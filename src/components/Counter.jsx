@@ -46,7 +46,7 @@ export default function Counter({ end, label, duration = 800 }) {
 
   return (
     <div ref={ref} className="flex-1 text-center">
-      <p className="text-4xl font-serif font-bold text-stone-700">
+      <p className="text-5xl font-serif font-semibold text-stone-700 leading-tight scale-y-125">
         {String(count).padStart(2, "0")}
       </p>
       <p className="text-gray-600 mt-1">{label}</p>
