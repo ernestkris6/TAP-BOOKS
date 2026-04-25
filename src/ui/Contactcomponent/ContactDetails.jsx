@@ -2,6 +2,7 @@ import React from "react";
 import { FaPhone } from "react-icons/fa";
 import { FiMapPin, FiPhone, FiMail, FiTwitter, FiFacebook, FiInstagram } from "react-icons/fi";
 import { SiTiktok, SiWhatsapp } from "react-icons/si";
+import shake from '../../assets/shake.jpg';
 
 export default function ContactPage() {
   return (
@@ -9,7 +10,7 @@ export default function ContactPage() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
-          src="https://images.unsplash.com/photo-1521791136064-7986c2920216"
+          src={shake}
           alt="background"
           className="w-full h-full object-cover"
         />
