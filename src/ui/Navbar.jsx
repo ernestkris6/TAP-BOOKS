@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Link, NavLink } from "react-router-dom";
 import Logo from '../ui/Logo';
 import { FiMenu, FiX } from "react-icons/fi";
@@ -6,6 +6,29 @@ import { FiMenu, FiX } from "react-icons/fi";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+
+  const menuRef = useRef(null)
+
+
+  //OUTSIDE CLICK HANDLER
+  useEffect(() => {
+    function handleOutsideClick(e) {
+      if (menuRef.current && !menuRef.current.contains(e.target)) {
+        setIsOpen(false)
+        // console.log(handleOutsideClick, 'click outside');      
+      }
+    }
+
+    if(isOpen){
+      document.addEventListener('mousedown', handleOutsideClick)
+      document.addEventListener('touchstart', handleOutsideClick)
+    }
+
+    return () => {
+      document.removeEventListener('mousedown', handleOutsideClick)
+      document.removeEventListener('touchstart', handleOutsideClick)
+    }
+  }, [isOpen])
   
 
   const navLinkClass = ({ isActive }) =>
@@ -60,6 +83,7 @@ export default function Navbar() {
 
             {/* Mobile Menu */}
           <div
+              ref={menuRef}
               className={`md:hidden px-6 overflow-hidden transition-all duration-500 ease-in-out ${
                 isOpen ? "max-h-96 opacity-100 py-4" : "max-h-0 opacity-0"
               } bg-white shadow-md`}
