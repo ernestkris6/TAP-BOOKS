@@ -34,7 +34,7 @@ export default function HeroSection() {
             </Link>
 
             <Link to="/author">
-              <button className="border border-black px-6 py-3 rounded-xs hover:bg-black hover:text-white transition duration-300">
+              <button className="border border-black px-6 py-3 rounded-xs hover:bg-gray-800 hover:text-white transition duration-300">
                 Chat with US
               </button>
             </Link>

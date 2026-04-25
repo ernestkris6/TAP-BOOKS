@@ -86,7 +86,7 @@ export default function Navbar() {
               <hr className="text-black/20"/>
 
               <NavLink to="/author" onClick={() => setIsOpen(false)}>
-                <button className="w-full bg-black text-white py-2 rounded-sm cursor-pointer">
+                <button className="w-full bg-black hover:bg-gray-800 text-white py-2 rounded-sm cursor-pointer">
                   Meet the Team
                 </button>
               </NavLink>
