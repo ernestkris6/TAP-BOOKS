@@ -13,20 +13,15 @@ export default function Navbar() {
   //OUTSIDE CLICK HANDLER
   useEffect(() => {
     function handleOutsideClick(e) {
-      if (menuRef.current && !menuRef.current.contains(e.target)) {
+      if (isOpen && menuRef.current && !menuRef.current.contains(e.target)) {
         setIsOpen(false)
         // console.log(handleOutsideClick, 'click outside');      
       }
     }
-
-    if(isOpen){
       document.addEventListener('mousedown', handleOutsideClick)
-      document.addEventListener('touchstart', handleOutsideClick)
-    }
-
+    
     return () => {
       document.removeEventListener('mousedown', handleOutsideClick)
-      document.removeEventListener('touchstart', handleOutsideClick)
     }
   }, [isOpen])
   
