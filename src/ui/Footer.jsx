@@ -33,9 +33,9 @@ export default function Footer() {
           <input
             type="email"
             placeholder="Enter your email"
-            className="w-full sm:w-80 px-4 py-3 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-black"
+            className="w-full sm:w-80 px-4 py-3 rounded-xs border border-gray-300 focus:outline-none focus:ring-2 focus:ring-black"
           />
-          <button className="px-6 py-3 rounded-xl bg-black text-white hover:bg-gray-800 transition">
+          <button className="px-6 py-3 rounded-xs bg-black text-white hover:bg-gray-800 transition">
             Subscribe
           </button>
         </div>

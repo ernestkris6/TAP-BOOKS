@@ -44,7 +44,7 @@ export default function Navbar() {
       
                 {/* CTA Button */}
                 <NavLink to="/author" className="bg-transparent text-black px-5 py-2 border hover:bg-black hover:text-white transition cursor-pointer rounded-xs" >
-                    Meet the Author  
+                    Meet the Team  
                 </NavLink>
               </div>
 
@@ -87,7 +87,7 @@ export default function Navbar() {
 
               <NavLink to="/author" onClick={() => setIsOpen(false)}>
                 <button className="w-full bg-black text-white py-2 rounded-sm cursor-pointer">
-                  About Author
+                  Meet the Team
                 </button>
               </NavLink>
           </div>
