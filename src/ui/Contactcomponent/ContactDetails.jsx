@@ -19,7 +19,7 @@ export default function ContactPage() {
 
       {/* Content */}
         {/* Left - Contact Info */}
-      <div className="relative z-10 max-w-6xl w-full grid md:grid-cols-2 gap-10 bg-white/10 backdrop-blur-lg p-8 shadow-xl mb-18 md:mb-12">
+      <div className="relative z-10 max-w-6xl w-full grid md:grid-cols-2 gap-10 bg-white/10 backdrop-blur-lg p-8 shadow-xl rounded-b-xs mb-18 md:mb-12">
         <div className="text-white space-y-6">
           <h2 className="text-3xl font-bold pt-6">Let's Talk...</h2>
           <p className="text-white/90 w-2/3">
@@ -49,7 +49,7 @@ export default function ContactPage() {
         </div>
 
         {/* Right - Form */}
-        <form className="bg-white/95 p-4 shadow-md space-y-4">
+        <form className="bg-white/95 rounded-xs p-4 shadow-md space-y-4">
           <h3 className="text-xl font-semibold">Send US a Message</h3>
 
           <input
