@@ -55,24 +55,24 @@ export default function ContactPage() {
           <input
             type="text"
             placeholder="Full name"
-            className="w-full p-3 border rounded-xs focus:outline-none focus:ring-1 focus:ring-black"
+            className="w-full p-2 border rounded-xs focus:outline-none focus:ring-1 focus:ring-black"
           />
 
           <input
             type="email"
             placeholder="Enter email"
-            className="w-full p-3 border rounded-xs focus:outline-none focus:ring-1 focus:ring-black"
+            className="w-full p-2 border rounded-xs focus:outline-none focus:ring-1 focus:ring-black"
           />
 
           <textarea
             placeholder="Type your message..."
             rows="5"
-            className="w-full p-3 border rounded-xs focus:outline-none focus:ring-1 focus:ring-black"
+            className="w-full p-2 border rounded-xs focus:outline-none focus:ring-1 focus:ring-black"
           ></textarea>
 
           <button
             type="submit"
-            className="w-full bg-black text-white cursor-pointer py-3 rounded-xs hover:bg-gray-800 transition"
+            className="w-full bg-black text-white cursor-pointer py-2 rounded-xs hover:bg-gray-800 transition"
           >
             Send Message
           </button>
