@@ -20,10 +20,9 @@ export default function ContactPage() {
         {/* Left - Contact Info */}
       <div className="relative z-10 max-w-6xl w-full grid md:grid-cols-2 gap-10 bg-white/10 backdrop-blur-lg p-8 shadow-xl mb-18 md:mb-12">
         <div className="text-white space-y-6">
-          <h2 className="text-3xl font-bold pt-6">Contact US</h2>
-          <p className="text-stone-300 w-2/3">
-            Feel free to reach out for collaborations, projects, or just a
-            friendly hello. 
+          <h2 className="text-3xl font-bold pt-6">Let's Talk...</h2>
+          <p className="text-white/90 w-2/3">
+            Have a question, idea or a friendly hello? Feel free to reach out.  We'd love to hear from you.
           </p>
 
           
