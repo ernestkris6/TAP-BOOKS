@@ -168,7 +168,7 @@ export default function TapBooksAboutPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="px-6 lg:px-20 pb-24">
+      <section className="bg-white px-6 lg:px-20 pb-24">
         <div className="max-w-7xl mx-auto bg-[#1f1f1f] rounded-sm text-white p-10 lg:p-20 text-center relative overflow-hidden">
           <div className="absolute inset-0 opacity-10 bg-[url('https://images.unsplash.com/photo-1521587760476-6c12a4b040da?q=80&w=2070&auto=format&fit=crop')] bg-cover bg-center"></div>
 
