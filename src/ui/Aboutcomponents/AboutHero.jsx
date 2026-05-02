@@ -42,7 +42,7 @@ export default function TapBooksAboutPage() {
               className="rounded-sm shadow-2xl object-cover h-[500px] w-full"
             />
 
-            <div className="absolute -bottom-8 -left-8 bg-white text-black py-2 px-4 rounded-sm shadow-xl max-w-xs">
+            <div className="hidden md:block absolute -bottom-8 -left-8 bg-white text-black py-2 px-4 rounded-sm shadow-xl max-w-xs">
               <h3 className="text-xl font-bold mb-2">Intrigued Readers</h3>
               <p className="text-gray-600">
                 Readers and book lovers connected through TAP Books.
@@ -113,16 +113,16 @@ export default function TapBooksAboutPage() {
 
       <section className="py-24 px-6 lg:px-20 bg-white overflow-hidden">
         <div className="max-w-7xl mx-auto mb-14 text-center">
-          <p className="uppercase tracking-[0.3em] text-sm text-yellow-500 mb-4">
+          <p className="uppercase tracking-[0.3em] text-sm text-stone-700 mb-4">
             Reader Stories
           </p>
 
-          <h2 className="text-4xl lg:text-5xl font-bold mb-6">
+          <h2 className="text-4xl text-stone-800 lg:text-5xl font-semibold mb-6">
             What Readers Say About TAP Books
           </h2>
 
           <p className="text-gray-600 text-lg max-w-3xl mx-auto">
-            Thousands of readers trust TAP Books for discovering inspiring,
+            Our readers trust TAP Books for discovering inspiring,
             educational, and life-changing books.
           </p>
         </div>
@@ -150,7 +150,7 @@ export default function TapBooksAboutPage() {
               key={index}
               className="min-w-[320px] lg:min-w-[380px] bg-[#f1f1f1] border border-gray-100 rounded-sm p-8 shadow-sm flex flex-col gap-6"
             >
-              <div className="text-5xl text-yellow-500">
+              <div className="text-5xl text-stone-700">
                 <RiDoubleQuotesL />
               </div>
 
