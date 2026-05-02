@@ -55,19 +55,19 @@ export default function ContactPage() {
           <input
             type="text"
             placeholder="Full name"
-            className="w-full p-2 border rounded-xs focus:outline-none focus:ring-1 focus:ring-black"
+            className="w-full p-2 border border-gray-500 rounded-xs focus:outline-none focus:ring-1  focus:ring-gray-800"
           />
 
           <input
             type="email"
             placeholder="Enter email"
-            className="w-full p-2 border rounded-xs focus:outline-none focus:ring-1 focus:ring-black"
+            className="w-full p-2 border border-gray-500 rounded-xs focus:outline-none focus:ring-1 focus:ring-gray-800"
           />
 
           <textarea
             placeholder="Type your message..."
             rows="5"
-            className="w-full p-2 border rounded-xs focus:outline-none focus:ring-1 focus:ring-black"
+            className="w-full p-2 border border-gray-500 rounded-xs focus:outline-none focus:ring-1 focus:ring-gray-800"
           ></textarea>
 
           <button
@@ -83,11 +83,11 @@ export default function ContactPage() {
       <div className="absolute bottom-6 gap-6 text-white">
         <div className="flex gap-5">
         <p className="">Follow US</p>
-                  <FiTwitter className="w-5 h-5 hover:text-stone-300 cursor-pointer" />
-                  <FiFacebook className="w-5 h-5 hover:text-stone-300 cursor-pointer" />
-                  <FiInstagram className="w-5 h-5 hover:text-stone-300 cursor-pointer" />
-                  <SiWhatsapp className="w-5 h-5 hover:text-stone-300 cursor-pointer" />
-                  <SiTiktok className="w-5 h-5 hover:text-stone-300 cursor-pointer" />
+            <FiTwitter className="w-5 h-5 hover:text-stone-300 cursor-pointer" />
+            <FiFacebook className="w-5 h-5 hover:text-stone-300 cursor-pointer" />
+            <FiInstagram className="w-5 h-5 hover:text-stone-300 cursor-pointer" />
+            <SiWhatsapp className="w-5 h-5 hover:text-stone-300 cursor-pointer" />
+            <SiTiktok className="w-5 h-5 hover:text-stone-300 cursor-pointer" />
                 </div>
 
       </div>

@@ -7,16 +7,6 @@ export default function ContactSignature() {
   return (
     <section className="bg-blue-50 h-[80vh] flex items-center justify-center text-center px-6 overflow-hidden">
       
-      {/* Background Image
-      <img
-        src={image5}
-        alt="background"
-        className="absolute inset-0 w-full h-full object-cover"
-      />
-
-      {/* Overlay */}
-      {/* <div className="absolute inset-0 bg-[#8a6b3f]/60 backdrop-brightness-75" /> */} 
-
       {/* Content */}
       <div className="relative max-w-3xl text-black/90">
         
