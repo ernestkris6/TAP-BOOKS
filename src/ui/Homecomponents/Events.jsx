@@ -4,14 +4,14 @@ import { FiMapPin, FiPhone } from "react-icons/fi";
 
 export default function Events() {
   return (
-    <section className="w-full bg-[#f7f5f2] py-16 px-6 md:px-12">
-      <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+    <section className="bg-[#f7f5f2] py-16 px-6 md:px-12">
+      <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-10 items-center">
         {/* Image */}
         <div className="order-1 md:order-2">
           <img
             src={image2} // replace with your image path
             alt="Reading book"
-            className="w-full h-[568px] object-cover rounded-sm shadow-sm"
+            className="w-full object-cover rounded-sm shadow-sm"
           />
         </div>
 
