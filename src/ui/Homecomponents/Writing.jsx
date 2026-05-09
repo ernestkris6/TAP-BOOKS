@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from 'framer-motion'
 import writer from '../../assets/writer.webp'
 import Counter from '../../helper/Counter'
 
@@ -7,11 +8,27 @@ export default function Writing() {
   return (
     <section className='bg-white/80 px-8 pt-12 pb-12'>
         <div className='space-y-3.5 py-24'>
-            <h1 className='font-serif font-medium text-stone-700 text-xl md:text-2xl lg:text-3xl text-center leading-tight'>Writing that SPEAKS, Stories that LAST</h1>
-            <div>
+            <motion.h1 
+            initial={{ opacity: 0, y: 80 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ 
+              duration:  0.8,
+              delay: 0.6
+            }}
+            className='font-serif font-medium text-stone-700 text-xl md:text-2xl lg:text-3xl text-center leading-tight'>Writing that SPEAKS, Stories that LAST</motion.h1>
+            <motion.div
+              initial={{ opacity: 0, y: 80 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ 
+                duration:  1,
+                delay: 0.8
+              }}
+            >
               <p className='text-center text-stone-500'>Words have the power to linger long after the final page is turned.</p>
             <p className='text-center text-stone-500'>Here, you find stories shaped with care, crafted to stir emotions beautiful enough to stay with you. </p>
-            </div>
+            </motion.div>
         </div>   
 
         {/* Story of tapbooks */}
@@ -21,7 +38,15 @@ export default function Writing() {
 
         {/* LEFT SIDE (can be image later) */}
         <div className="">
-            <img className='w-full object-cover rounded-sm' src={writer} alt="" />
+            <motion.img 
+            initial={{ opacity: 0, y: 80 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ 
+              duration:  1,
+              delay:1
+            }}
+            className='w-full object-cover rounded-sm' src={writer} alt="" />
         </div>
 
         {/* RIGHT SIDE CONTENT */}

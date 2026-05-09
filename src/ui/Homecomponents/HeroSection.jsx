@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 import image1 from '../../assets/image1.webp';
 import image4 from '../../assets/image4.webp'
 import image3 from '../../assets/image3.webp'
@@ -14,19 +15,51 @@ export default function HeroSection() {
         
         {/* LEFT CONTENT */}
         <div className="space-y-3">
-            <p className="text-gray-600">
+            <motion.p 
+            initial={{ opacity: 0, y: 80 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ 
+              duration:  0.8,
+              delay: 0.6,
+            }}
+            className="text-gray-600">
                 Best Selling Book
-            </p>
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-serif font-medium text-gray-900 leading-tight">
+            </motion.p>
+          <motion.h1 
+            initial={{ opacity: 0, y: 80 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ 
+              duration:  0.8,
+              delay:1
+            }}
+          className="text-3xl md:text-4xl lg:text-5xl font-serif font-medium text-gray-900 leading-tight">
             Discover the magical journey
-          </h1>
+          </motion.h1>
 
-          <p className="text-base text-gray-600 font-medium md:text-base max-w-lg">
+          <motion.p 
+          initial={{ opacity: 0, y: 80 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ 
+              duration:  0.8,
+              delay:1.4
+            }}
+          className="text-base text-gray-600 font-medium md:text-base max-w-lg">
             Step into stories filled with suspense, unforgettable characters and unexpected twists by <br /> TEMILORUN AEBIYI
-          </p>
+          </motion.p>
 
           {/* Buttons */}
-          <div className="flex flex-wrap gap-4 pt-4">
+          <motion.div
+            initial={{ opacity: 0, y: 80 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ 
+              duration:  0.8,
+              delay: 1.6
+            }}
+           className="flex flex-wrap gap-4 pt-4">
             <Link to="books">
               <button className="bg-stone-700 text-white px-6 py-3 rounded-xs hover:bg-gray-800 transition duration-300">
                 Explore Books
@@ -38,7 +71,8 @@ export default function HeroSection() {
                 Chat with US
               </button>
             </Link>
-          </div>
+          </motion.div
+          >
         </div>
 
         {/* RIGHT IMAGE SECTION */}

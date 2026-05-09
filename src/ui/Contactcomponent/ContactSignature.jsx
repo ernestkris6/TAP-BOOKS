@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import { RiDoubleQuotesL } from "react-icons/ri";
 // import image5 from "../../assets/image5.jpg"; // replace with your image
 // import { FaQuoteLeft } from "react-icons/fa";
@@ -8,7 +9,12 @@ export default function ContactSignature() {
     <section className="bg-blue-50 flex items-center justify-center text-center">
       
       {/* Content */}
-      <div className="max-w-3xl text-black/90 py-12 px-6">
+      <motion.div 
+        initial={{ opacity: 0, y: 80 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration:  1}}
+        className="max-w-3xl text-black/90 py-12 px-6">
         
         {/* Quote Icon */}
         {/* <p className="flex text-3xl md:text-4xl items-center justify-center opacity-80 mb-4">
@@ -30,11 +36,20 @@ export default function ContactSignature() {
           Interested in collaborations, interviews, speaking engagements or book-related enquiries? Feel free to get in touch anytime.
         </h1>
 
+        <motion.div 
+          className="mt-4"
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.9 }}
+          whileHover={{
+          scale: 1.05,
+          rotate: 1.05,
+  }}
+        >
 
-        <div className="mt-4">
           <button className="bg-black text-white cursor-pointer px-8 py-2 rounded-xs hover:bg-gray-800 transition">Chat on WhatsApp</button>
-        </div>
-      </div>
+        </motion.div>
+      </motion.div>
     </section>
   );
 }
