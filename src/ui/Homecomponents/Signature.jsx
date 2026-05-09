@@ -17,7 +17,7 @@ export default function Signature() {
       <img
         src={image5}
         alt="background"
-        className="absolute inset-0 w-full h-full object-cover"
+        className="absolute inset-0 w-full object-cover"
       />
 
       {/* Overlay */}
