@@ -11,7 +11,7 @@ export default function Signature() {
   });
 
   return (
-    <section className="relative flex items-center justify-center text-center px-6 overflow-hidden min-h-[70vh]">
+    <section className="relative flex items-center justify-center text-center px-6 overflow-hidden">
 
       {/* Background Image */}
       <img
