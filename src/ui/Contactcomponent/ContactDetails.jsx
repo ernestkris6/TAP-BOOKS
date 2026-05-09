@@ -29,27 +29,26 @@ export default function ContactPage() {
          <p className="text-white/90 w-2/3">
           Have a question, idea or a friendly hello? Feel free to reach out.  We'd love to hear from you.
         </p>
-          <div className="space-y-4">
-              <div className="flex items-center gap-3">
-                  <FiMapPin />
-                  <p>Lagos, Nigeria.</p>
-              </div>
-                <hr className="text-white" />
+            <div className="space-y-4">
+                <div className="flex items-center gap-3">
+                    <FiMapPin />
+                    <p>Lagos, Nigeria.</p>
+                </div>
+                  <hr className="text-white" />
 
-              <div className="flex items-center gap-3">
-                  <FiMail/>
-                  <p>tapbooks2025@gmail.com</p>
-              </div>
-                <hr className="text-white" />
+                <div className="flex items-center gap-3">
+                    <FiMail/>
+                    <p>tapbooks2025@gmail.com</p>
+                </div>
+                  <hr className="text-white" />
 
-              <div className="flex items-center gap-3">
-                  <FaPhone />
-                  <span>+234 701 0757 4608</span>
-              </div>
-                <hr className="text-white" />
-                
-          </div>
-      </div>
+                <div className="flex items-center gap-3">
+                    <FaPhone />
+                    <span>+234 701 0757 4608</span>
+                </div>
+                  <hr className="text-white" />  
+            </div>
+        </div>
 
             {/*Form - Right Content*/}
            <div>
