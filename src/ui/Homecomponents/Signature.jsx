@@ -5,7 +5,7 @@ import image5 from "../../assets/image5.webp"; // replace with your image
 
 export default function Signature() {
   return (
-    <section className="relative h-[80vh] flex items-center justify-center text-center px-6 overflow-hidden">
+    <section className="relative flex items-center justify-center text-center px-6 overflow-hidden">
       
       {/* Background Image */}
       <img
@@ -18,7 +18,7 @@ export default function Signature() {
       <div className="absolute inset-0 bg-[#8a6b3f]/60 backdrop-brightness-75" />
 
       {/* Content */}
-      <div className="relative max-w-3xl text-white">
+      <div className="relative max-w-3xl text-white py-12">
         
         {/* Quote Icon */}
         <p className="flex text-3xl md:text-4xl items-center justify-center opacity-80 mb-4">
