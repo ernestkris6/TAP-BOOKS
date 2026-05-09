@@ -17,20 +17,11 @@ export default function Writing() {
         {/* Story of tapbooks */}
 
     <div className="py-12">
-      <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-14 items-center">
+      <div className="max-w-7xl mx-auto grid sm:grid-cols-2 gap-14 items-center">
 
         {/* LEFT SIDE (can be image later) */}
         <div className="">
             <img className='w-full object-cover rounded-sm' src={writer} alt="" />
-     
-
-          {/* decorative floating shape */}
-          {/* <div className="absolute -top-6 -left-6 w-32 h-32 bg-stone-100 rounded-2xl rotate-6">
-
-          </div>
-          <div className="absolute -bottom-6 -right-6 w-40 h-40 bg-stone-200 rounded-2xl -rotate-6">
-            
-          </div> */}
         </div>
 
         {/* RIGHT SIDE CONTENT */}
