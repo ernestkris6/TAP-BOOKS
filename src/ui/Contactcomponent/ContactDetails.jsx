@@ -25,7 +25,7 @@ export default function ContactPage() {
 
       {/*Left Content*/}
         <div className="text-white space-y-6">
-          <h2 className="text-3xl font-medium pt-6">Let's Talk...</h2>
+          <h2 className="text-3xl font-medium pt-6">Let's Talk!</h2>
          <p className="text-white/90 w-2/3">
           Have a question, idea or a friendly hello? Feel free to reach out.  We'd love to hear from you.
         </p>
@@ -54,7 +54,7 @@ export default function ContactPage() {
             {/*Form - Right Content*/}
            <div>
               <form className="bg-white/95 rounded-xs p-4 shadow-md space-y-4">
-                <h3 className="text-xl font-semibold">Kindly leave a message</h3>
+                <h3 className="text-xl font-semibold">Leave a message...</h3>
 
               <input
                 type="text"
