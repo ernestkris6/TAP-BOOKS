@@ -42,10 +42,10 @@ export default function TapBooksAboutPage() {
               className="rounded-sm shadow-2xl object-cover h-[500px] w-full"
             />
 
-            <div className="hidden md:block absolute -bottom-8 -left-8 bg-white text-black py-2 px-4 rounded-sm shadow-xl max-w-xs">
-              <h3 className="text-xl font-bold mb-2">Intrigued Readers</h3>
-              <p className="text-gray-600">
-                Readers and book lovers connected through TAP Books.
+            <div className="hidden md:block absolute -bottom-8 -left-8 bg-white text-black py-2 px-2 rounded-sm shadow-xl max-w-xs">
+              <h3 className="text-xl text-stone-500 font-medium mb-2">Intrigued Readers</h3>
+              <p className="text-stone-700">
+                Book lovers and readers connect through TAP Books.
               </p>
             </div>
           </div>

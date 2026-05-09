@@ -21,7 +21,7 @@ export default function Writing() {
 
         {/* LEFT SIDE (can be image later) */}
         <div className="">
-            <img className='rounded-sm' src={writer} alt="" />
+            <img className='w-full object-cover rounded-sm' src={writer} alt="" />
      
 
           {/* decorative floating shape */}

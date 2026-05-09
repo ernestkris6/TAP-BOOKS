@@ -48,17 +48,17 @@ export default function BestSelling() {
         </div>
 
         {/* Books Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 shrink-0">
 
           {books.map((book) => (
             <div key={book.id} className="text-center space-y-5">
 
               {/* Image */}
-              <div className="overflow-hidden rounded-md">
+              <div className="overflow-hidden rounded-sm">
                 <img
                   src={book.image}
                   alt={book.title}
-                  className="w-full h-[578px] object-cover transition-transform duration-500 hover:scale-105"
+                  className="w-full h-auto object-cover transition-transform duration-500 hover:scale-105"
                 />
               </div>
 
