@@ -10,7 +10,10 @@ export default function ContactPage() {
       {/*IMAGE*/}
       
         <div className="absolute inset-0">
-            <img src={shake} alt="" className="w-full h-full object-cover" loading="eager"/>
+            <img src={shake} alt="" 
+                 className="w-full h-full object-cover" 
+                 loading="eager"
+            />
             <div className="absolute inset-0 bg-black/60"></div>
         </div> 
     
@@ -87,11 +90,17 @@ export default function ContactPage() {
        <div className="relative bottom-6 gap-6 text-white">
           <div className="flex justify-center items-center gap-5">
           <p className="">Follow US</p>
-              <FiTwitter className="w-5 h-5 hover:text-stone-300 cursor-pointer" />
-              <FiFacebook className="w-5 h-5 hover:text-stone-300 cursor-pointer" />
-              <FiInstagram className="w-5 h-5 hover:text-stone-300 cursor-pointer" />
-              <SiWhatsapp className="w-5 h-5 hover:text-stone-300 cursor-pointer" />
-              <SiTiktok className="w-5 h-5 hover:text-stone-300 cursor-pointer" />
+              <FiTwitter 
+                className="w-5 h-5 hover:text-stone-300 cursor-pointer" 
+              />
+              <FiFacebook 
+                className="w-5 h-5 hover:text-stone-300 cursor-pointer" />
+              <FiInstagram 
+                className="w-5 h-5 hover:text-stone-300 cursor-pointer" />
+              <SiWhatsapp 
+                className="w-5 h-5 hover:text-stone-300 cursor-pointer" />
+              <SiTiktok 
+                className="w-5 h-5 hover:text-stone-300 cursor-pointer" />
           </div>
         </div>
 
