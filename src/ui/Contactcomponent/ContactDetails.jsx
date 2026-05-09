@@ -2,7 +2,7 @@ import React from "react";
 import { FaPhone } from "react-icons/fa";
 import { FiMapPin, FiPhone, FiMail, FiTwitter, FiFacebook, FiInstagram } from "react-icons/fi";
 import { SiTiktok, SiWhatsapp } from "react-icons/si";
-import shake from '../../assets/shake.jpg';
+import shake from '../../assets/shake.webp';
 
 export default function ContactPage() {
   return (
@@ -10,7 +10,7 @@ export default function ContactPage() {
       {/*IMAGE*/}
       
         <div className="absolute inset-0">
-            <img src={shake} alt="" className="w-full h-full object-cover"/>
+            <img src={shake} alt="" className="w-full h-full object-cover" loading="eager"/>
             <div className="absolute inset-0 bg-black/60"></div>
         </div> 
     

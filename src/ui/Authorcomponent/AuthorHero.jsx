@@ -1,5 +1,5 @@
 import { FaArrowRight, FaBook, FaPen } from "react-icons/fa";
-import image2 from '../../assets/image2.jpg';
+import image2 from '../../assets/image2.webp';
 import { FaBookBible, FaHeart, FaPencil } from "react-icons/fa6";
 
 export default function AuthorHero() {

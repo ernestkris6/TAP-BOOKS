@@ -1,4 +1,4 @@
-import abtbg from '../../assets/abtbg.jpg';
+import abtbg from '../../assets/abtbg.webp';
 import { RiDoubleQuotesL } from "react-icons/ri";
 
 

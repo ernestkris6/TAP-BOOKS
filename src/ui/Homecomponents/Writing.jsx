@@ -1,5 +1,5 @@
 import React from 'react'
-import writer from '../../assets/writer.jpg'
+import writer from '../../assets/writer.webp'
 import Counter from '../../helper/Counter'
 
 //text-3xl md:text-4xl lg:text-5xl font-serif font-medium text-gray-900 leading-tight
