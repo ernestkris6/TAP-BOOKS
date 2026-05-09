@@ -16,7 +16,7 @@ export default function ContactPage() {
     
       {/* HEADING */}
         <div className="relative text-center text-white pt-12">
-            <h1 className="text-2xl md:text-3xl font-bold lg:text-4xl pb-4">Contact US</h1>
+            <h1 className="text-2xl md:text-3xl font-semibold lg:text-4xl pb-4">Contact <span className="font-bold">US</span></h1>
         </div>
       
       {/*FORM*/}
@@ -83,7 +83,7 @@ export default function ContactPage() {
             </form>          
            </div>
       </div>
-      
+
        {/* Social Icons */}
        <div className="relative bottom-6 gap-6 text-white">
           <div className="flex justify-center items-center gap-5">
