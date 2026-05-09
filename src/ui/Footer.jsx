@@ -19,10 +19,10 @@ export default function Footer() {
 
 
   return (
-    <footer className="bg-[#f7f7f7] text-gray-800 px-6 py-20">
+    <footer className="bg-[#f7f7f7] text-gray-800 px-6 py-18">
       {/* Heading */}
       <div className="max-w-4xl mx-auto text-center mb-10">
-        <h2 className="font-serif text-3xl md:text-4xl leading-relaxed mb-6">
+        <h2 className="font-serif text-lg md:text-2xl leading-relaxed mb-6">
           Get all the latest news and info
           <br />
           sent to your inbox.
