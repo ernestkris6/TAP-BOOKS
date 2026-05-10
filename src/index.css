@@ -25,10 +25,6 @@ body {
   }
 }
 
-/* .animate-marquee {
-  animation: marquee 25s linear infinite;
-} */
-
 .marquee-track {
   animation: marquee 25s linear infinite;
 }

@@ -13,7 +13,9 @@ export default function ContactSignature() {
         initial={{ opacity: 0, y: 80 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        transition={{ duration:  1}}
+        transition={{ duration:  1,
+        delay: 0.8
+        }}
         className="max-w-3xl text-black/90 py-12 px-6">
         
         {/* Quote Icon */}
@@ -27,24 +29,35 @@ export default function ContactSignature() {
         </p> */}
 
         {/* Author */}
-        <p className="text-sm md:text-base opacity-90 underline">
+        <motion.p 
+         initial={{ opacity: 0, y: 80 }}
+         whileInView={{ opacity: 1, y: 0 }}
+         viewport={{ once: true }}
+         transition={{ duration:  1,
+         delay: 0.8}}
+         className="text-sm md:text-base opacity-90 underline"
+         >
           TAP BOOKS
-        </p>
+        </motion.p>
 
         {/* Main Quote */}
-        <h1 className="text-lg md:text-xl py-6 font-medium leading-relaxed">
+        <motion.h1 
+          initial={{ opacity: 0, y: 80 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration:  1,
+          delay: 1}}
+          className="text-lg md:text-xl py-6 font-medium leading-relaxed"
+          >
           Interested in collaborations, interviews, speaking engagements or book-related enquiries? Feel free to get in touch anytime.
-        </h1>
+        </motion.h1>
 
         <motion.div 
-          className="mt-4"
-          initial={{ opacity: 0, y: 50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.9 }}
-          whileHover={{
-          scale: 1.05,
-          rotate: 1.05,
-  }}
+          initial={{ opacity: 0, y: 80 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration:  1,
+          delay: 1.2}}
         >
 
           <button className="bg-black text-white cursor-pointer px-8 py-2 rounded-xs hover:bg-gray-800 transition">Chat on WhatsApp</button>
