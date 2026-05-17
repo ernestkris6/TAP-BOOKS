@@ -48,7 +48,7 @@ export default function AboutCta() {
             {...fadeUp}
             transition={{ duration: 1, delay: 0.6 }}
           >
-            <button className="bg-yellow-400 hover:bg-yellow-300 text-black px-8 py-4 rounded-full font-semibold cursor-pointer transition-all duration-500 hover:px-10 hover:shadow-lg">
+            <button className="bg-yellow-400 hover:bg-yellow-300 text-black px-8 py-4 rounded-xs font-semibold cursor-pointer transition-all duration-500 hover:px-10 hover:shadow-lg">
               Browse Books
             </button>
           </motion.div>

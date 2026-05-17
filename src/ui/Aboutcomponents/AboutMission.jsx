@@ -108,7 +108,7 @@ export default function AboutMission() {
           and fuel your growth.
         </p>
 
-        <button className="bg-yellow-400 hover:bg-yellow-300 text-black px-8 py-4 rounded-full font-semibold cursor-pointer transition-all duration-500 hover:px-10">
+        <button className="bg-yellow-400 hover:bg-yellow-300 text-black px-8 py-4 rounded-xs font-semibold cursor-pointer transition-all duration-500 hover:px-10">
           Browse Books
         </button>
       </motion.div>
