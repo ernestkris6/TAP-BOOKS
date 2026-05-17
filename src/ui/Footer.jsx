@@ -8,10 +8,6 @@ import { SiTiktok, SiWhatsapp } from "react-icons/si";
 
 export default function Footer() {
 
-  // const navLinkClass = ({isActive}) => {
-  //   isActive ? "hover:text-black transition border-b-2" : "hover:text-black transition"
-  // }
-
   const navLinkClass = ({ isActive }) =>
     isActive
       ? "text-black font-medium border-b-2 border-black pb-1"

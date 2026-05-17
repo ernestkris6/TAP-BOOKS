@@ -17,16 +17,6 @@ export default function ContactSignature() {
         delay: 0.8
         }}
         className="max-w-3xl text-black/90 py-12 px-6">
-        
-        {/* Quote Icon */}
-        {/* <p className="flex text-3xl md:text-4xl items-center justify-center opacity-80 mb-4">
-          <RiDoubleQuotesL />
-        </p> */}
-
-        {/* Signature (optional stylized text) */}
-        {/* <p className="italic text-xl mb-6 opacity-90">
-          My Story
-        </p> */}
 
         {/* Author */}
         <motion.p 
