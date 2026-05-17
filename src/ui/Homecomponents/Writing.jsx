@@ -7,7 +7,24 @@ import Counter from "../../helper/Counter";
 
 export default function Writing() {
   // 🔥 reusable animation
-  const fadeUp = {
+  // const fadeUp = {
+  //   initial: {
+  //     opacity: 0,
+  //     y: 80,
+  //   },
+
+  //   whileInView: {
+  //     opacity: 1,
+  //     y: 0,
+  //   },
+
+  //   viewport: {
+  //     once: true,
+  //     amount: 0.3,
+  //   },
+  // };
+
+    const fadeUp = {
     initial: {
       opacity: 0,
       y: 80,
@@ -20,9 +37,10 @@ export default function Writing() {
 
     viewport: {
       once: true,
-      amount: 0.3,
+      amount: 0.2,
     },
   };
+
 
   return (
     <section className="bg-white/80 px-8 pt-12 pb-12 overflow-hidden">

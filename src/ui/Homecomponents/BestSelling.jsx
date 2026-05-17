@@ -29,7 +29,24 @@ const books = [
 export default function BestSelling() {
 
   // Reusable animation
-  const fadeUp = {
+  // const fadeUp = {
+  //   initial: {
+  //     opacity: 0,
+  //     y: 80,
+  //   },
+
+  //   whileInView: {
+  //     opacity: 1,
+  //     y: 0,
+  //   },
+
+  //   viewport: {
+  //     once: true,
+  //     amount: 0.2,
+  //   },
+  // };
+
+    const fadeUp = {
     initial: {
       opacity: 0,
       y: 80,
@@ -45,6 +62,7 @@ export default function BestSelling() {
       amount: 0.2,
     },
   };
+
 
   return (
     <section className="bg-blue-50 py-20 px-6 overflow-hidden">

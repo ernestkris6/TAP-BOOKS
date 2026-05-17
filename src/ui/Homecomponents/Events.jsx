@@ -8,7 +8,24 @@ import { FiMapPin, FiPhone } from "react-icons/fi";
 export default function Events() {
 
   // 🔥 Reusable animation
-  const fadeUp = {
+  // const fadeUp = {
+  //   initial: {
+  //     opacity: 0,
+  //     y: 80,
+  //   },
+
+  //   whileInView: {
+  //     opacity: 1,
+  //     y: 0,
+  //   },
+
+  //   viewport: {
+  //     once: true,
+  //     amount: 0.3,
+  //   },
+  // };
+
+const fadeUp = {
     initial: {
       opacity: 0,
       y: 80,
@@ -21,9 +38,10 @@ export default function Events() {
 
     viewport: {
       once: true,
-      amount: 0.3,
+      amount: 0.2,
     },
   };
+
 
   return (
     <section className="bg-[#f7f5f2] py-16 px-6 md:px-12 overflow-hidden">

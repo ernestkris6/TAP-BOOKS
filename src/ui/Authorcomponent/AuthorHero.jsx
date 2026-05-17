@@ -123,7 +123,7 @@ export default function MeetTeam() {
             transition={{ duration: 1, delay: 0.6 }}
             className="mt-10"
           >
-            <button className="group bg-stone-900 text-white px-8 py-4 rounded-full inline-flex items-center gap-3 hover:px-10 transition-all duration-500 cursor-pointer">
+            <button className="group bg-stone-900 text-white px-8 py-4 rounded-xs inline-flex items-center gap-3 hover:px-10 transition-all duration-500 cursor-pointer">
               Explore Our Team
 
               <span className="group-hover:translate-x-1 transition-transform duration-300">
@@ -348,11 +348,11 @@ export default function MeetTeam() {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-5">
 
-            <button className="bg-white text-stone-900 px-8 py-4 rounded-full font-medium hover:px-10 transition-all duration-500 cursor-pointer">
+            <button className="bg-white text-stone-900 px-8 py-4 rounded-xs font-medium hover:px-10 transition-all duration-500 cursor-pointer">
               Start A Project
             </button>
 
-            <button className="border border-white/30 px-8 py-4 rounded-full hover:bg-white hover:text-stone-900 transition-all duration-500 cursor-pointer">
+            <button className="border border-white/30 px-8 py-4 rounded-xs hover:bg-white hover:text-stone-900 transition-all duration-500 cursor-pointer">
               Join Our Team
             </button>
 
