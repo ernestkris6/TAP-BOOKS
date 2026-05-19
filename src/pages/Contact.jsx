@@ -1,13 +1,16 @@
 import React from 'react'
-import ContactDetails from '../ui/Contactcomponent/ContactDetails'
-import Signature from '../ui/Homecomponents/Signature'
-import ContactSignature from '../ui/Contactcomponent/ContactSignature'
+import ContactHero from '../ui/Contactcomponent/ContactHero'
+import ContactConvo from '../ui/Contactcomponent/ContactConvo'
+import ContactCta from '../ui/Contactcomponent/ContactCta'
+import ContactForm from '../ui/Contactcomponent/ContactForm'
 
 export default function Contact() {
   return (
     <div>
-      <ContactDetails />
-      <ContactSignature />
+      <ContactHero />
+      <ContactForm />
+      <ContactConvo />
+      <ContactCta />
     </div>
   )
 }

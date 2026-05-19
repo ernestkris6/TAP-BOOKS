@@ -51,7 +51,7 @@ export default function AuthorHero() {
             transition={{ duration: 1, delay: 0.2 }}
             className="text-2xl md:text-3xl lg:text-4xl font-serif font-medium text-stone-800 leading-tight"
           >
-            The creative minds 
+            The CREATIVE MINDS
             behind 
             <br />
             Our Brand.
