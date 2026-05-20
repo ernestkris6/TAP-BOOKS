@@ -45,19 +45,19 @@ export default function OurCulture() {
               Our Culture
             </p>
 
-            <h2 className="text-4xl md:text-5xl font-serif text-stone-800 leading-tight">
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-serif text-stone-800 leading-tight">
               Collaboration fuels
               everything we create.
             </h2>
 
-            <p className="text-stone-600 text-lg leading-relaxed">
+            <p className="text-stone-600 text-base md:text-lg leading-relaxed">
               We believe the best work comes from teamwork, trust and shared creativity.
               From strategy to execution, every project is shaped by collaboration and passion.
             </p>
 
             <div className="grid grid-cols-2 gap-6 pt-4">
 
-              <div className="bg-white rounded-2xl p-6 shadow-sm">
+              <div className="bg-white rounded-md p-6 shadow-sm">
                 <h3 className="text-4xl font-serif text-stone-800 mb-2">
                   25+
                 </h3>
@@ -67,7 +67,7 @@ export default function OurCulture() {
                 </p>
               </div>
 
-              <div className="bg-white rounded-2xl p-6 shadow-sm">
+              <div className="bg-white rounded-md p-6 shadow-sm">
                 <h3 className="text-4xl font-serif text-stone-800 mb-2">
                   10+
                 </h3>
@@ -92,14 +92,14 @@ export default function OurCulture() {
               <img
                 src={image1}
                 alt="Team"
-                className="rounded-[30px] h-[250px] w-full object-cover"
+                className="rounded-md h-[250px] w-full object-cover"
                 loading="lazy"
               />
 
               <img
                 src={image3}
                 alt="Team"
-                className="rounded-[30px] h-[180px] w-full object-cover"
+                className="rounded-md h-[180px] w-full object-cover"
                 loading="lazy"
               />
             </div>
@@ -108,14 +108,14 @@ export default function OurCulture() {
               <img
                 src={image5}
                 alt="Team"
-                className="rounded-[30px] h-[180px] w-full object-cover"
+                className="rounded-md h-[180px] w-full object-cover"
                 loading="lazy"
               />
 
               <img
                 src={image2}
                 alt="Team"
-                className="rounded-[30px] h-[250px] w-full object-cover"
+                className="rounded-md h-[250px] w-full object-cover"
                 loading="lazy"
               />
             </div>
