@@ -78,7 +78,7 @@ export default function ContactCta() {
                 </div>
 
                 <button className="mt-4 bg-yellow-400 hover:bg-yellow-300 text-black px-8 py-4 rounded-xs font-semibold transition-all duration-500 hover:px-10 cursor-pointer inline-flex items-center gap-3">
-                  Start Conversation
+                  WhatsApp
 
                   <FiArrowRight />
                 </button>
