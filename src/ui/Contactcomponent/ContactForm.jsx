@@ -22,7 +22,7 @@ const fadeUp = {
             <motion.div
               {...fadeUp}
               transition={{ duration: 1, delay: 0.2 }}
-              className="bg-[#1f1f1f]/80 text-white rounded-xs p-8 lg:p-10 relative overflow-hidden"
+              className="bg-stone-800 text-white rounded-xs p-8 lg:p-10 relative overflow-hidden"
             >
 
               <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(255,255,255,0.12),transparent_40%)]" />
@@ -131,7 +131,7 @@ const fadeUp = {
                   className="w-full bg-white border border-stone-200 rounded-xs px-5 py-3 outline-none focus:border-stone-800 transition resize-none"
                 />
 
-                <button className="group w-full bg-stone-700 hover:px-10 transition-all duration-500 text-white px-8 py-3.5 rounded-xs flex justify-center items-center gap-3 cursor-pointer">
+                <button className="group w-full bg-stone-900  hover:bg-stone-800 hover:px-10 transition-all duration-500 text-white px-8 py-3.5 rounded-xs flex justify-center items-center gap-3 cursor-pointer">
                   Send Message
 
                   <span className="group-hover:translate-x-1 transition-transform duration-300">

@@ -31,7 +31,7 @@ export default function Footer() {
             placeholder="Enter your email"
             className="w-full sm:w-80 px-4 py-3 rounded-xs border border-gray-300 focus:outline-none focus:ring-1 focus:ring-gray-800"
           />
-          <button className="px-6 py-3 rounded-xs bg-black cursor-pointer text-white hover:bg-gray-800 transition">
+          <button className="px-6 py-3 rounded-xs bg-stone-900 cursor-pointer text-white hover:bg-stone-800 transition">
             Subscribe
           </button>
         </div>
@@ -58,12 +58,12 @@ export default function Footer() {
 
         {/* Socials */}
         <div className="flex gap-5 text-gray-600">
-          <FiTwitter className="w-5 h-5 hover:text-black/80 cursor-pointer" />
-          <FiFacebook className="w-5 h-5 hover:text-black/80 cursor-pointer" />
-          <FiInstagram className="w-5 h-5 hover:text-black/80 cursor-pointer" />
-          <SiWhatsapp className="w-5 h-5 hover:text-black/80 cursor-pointer" />
-          <SiTiktok className="w-5 h-5 hover:text-black/80 cursor-pointer" />
-          <FiMail className="w-5 h-5 hover:text-black/80 cursor-pointer" />
+          <FiTwitter className="w-5 h-5 hover:text-stone-900 cursor-pointer" />
+          <FiFacebook className="w-5 h-5 hover:text-stone-900 cursor-pointer" />
+          <FiInstagram className="w-5 h-5 hover:text-stone-900 cursor-pointer" />
+          <SiWhatsapp className="w-5 h-5 hover:text-stone-900 cursor-pointer" />
+          <SiTiktok className="w-5 h-5 hover:text-stone-900 cursor-pointer" />
+          <FiMail className="w-5 h-5 hover:text-stone-900 cursor-pointer" />
         </div>
       </div>
         <hr className="py-2 text-stone-200"/>

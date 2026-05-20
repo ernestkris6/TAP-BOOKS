@@ -112,7 +112,7 @@ export default function TeamMembers() {
                           duration: 1,
                           delay: index * 0.1,
                         }}
-                        className="group bg-white rounded-[30px] overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500"
+                        className="group bg-white rounded-xs overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500"
                       >
         
                         {/* IMAGE */}

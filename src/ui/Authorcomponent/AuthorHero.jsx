@@ -71,7 +71,7 @@ export default function AuthorHero() {
             transition={{ duration: 1, delay: 0.6 }}
             className="mt-10"
           >
-            <button className="group bg-stone-900 text-white px-8 py-4 rounded-xs inline-flex items-center gap-3 hover:px-10 transition-all duration-500 cursor-pointer">
+            <button className="group bg-stone-900 text-white px-8 py-4 rounded-xs inline-flex items-center gap-3 hover:bg-stone-800 hover:px-10 transition-all duration-500 cursor-pointer">
               Explore Our Team
 
               <span className="group-hover:translate-x-1 transition-transform duration-300">

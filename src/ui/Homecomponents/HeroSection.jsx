@@ -68,13 +68,13 @@ export default function HeroSection() {
           >
 
             <Link to="/books">
-              <button className="bg-stone-900 text-white px-7 py-3.5 rounded-xs hover:px-9 transition-all duration-500 cursor-pointer">
+              <button className="bg-stone-900 text-white px-7 py-3.5 rounded-xs hover:bg-stone-800 hover:px-9 transition-all duration-500 cursor-pointer">
                 Explore Books
               </button>
             </Link>
 
             <Link to="/author">
-              <button className="border border-stone-800 text-stone-800 px-7 py-3.5 rounded-xs hover:bg-stone-900 hover:text-white transition-all duration-500 cursor-pointer">
+              <button className="border border-stone-900 text-stone-900 px-7 py-3.5 rounded-xs hover:bg-stone-900 hover:text-white transition-all duration-500 cursor-pointer">
                 Meet Our Team
               </button>
             </Link>
@@ -135,7 +135,7 @@ export default function HeroSection() {
               Latest Release
             </p>
 
-            <h3 className="font-serif text-lg text-stone-800">
+            <h3 className="font-serif text-lg text-stone-900">
               The Silent Pages
             </h3>
 
