@@ -1,11 +1,11 @@
 import React from 'react'
 import { motion } from "framer-motion";
-import image1 from "../../assets/abtbg.webp";
-import image2 from "../../assets/image2.webp";
-import image3 from "../../assets/image3.webp";
-import image4 from "../../assets/image4.webp";
-import image5 from "../../assets/image5.webp";
-import image6 from "../../assets/image5.webp";
+import Temi from "../../assets/Temi.jpg";
+import rol from "../../assets/rol.jpg";
+import vic from "../../assets/vic.jpg";
+import temi2 from "../../assets/temi2.png";
+import Joshua from "../../assets/Joshua.jpg";
+import Adediran from "../../assets/Adediran.jpg";
 
 import {
   FiInstagram,
@@ -18,42 +18,42 @@ const teamMembers = [
   {
     name: "Sophia Williams",
     role: "Creative Director",
-    image: image1,
+    image: Temi,
     bio: "Leads the brand vision and ensures every project feels timeless, elegant and impactful.",
   },
 
   {
     name: "Daniel Carter",
     role: "Frontend Developer",
-    image: image2,
+    image: rol,
     bio: "Builds smooth, responsive interfaces that bring digital experiences to life beautifully.",
   },
 
   {
     name: "Amara Johnson",
     role: "Product Designer",
-    image: image3,
+    image: vic,
     bio: "Designs intuitive user experiences with modern layouts and thoughtful visual storytelling.",
   },
 
   {
     name: "Michael Brown",
     role: "Backend Engineer",
-    image: image4,
+    image: temi2,
     bio: "Handles APIs, databases and architecture powering reliable scalable platforms.",
   },
 
   {
     name: "Grace Thompson",
     role: "Marketing Strategist",
-    image: image5,
+    image: Joshua,
     bio: "Crafts campaigns that connect emotionally and help brands grow authentically.",
   },
 
   {
     name: "David Smith",
     role: "Project Manager",
-    image: image6,
+    image: Adediran,
     bio: "Keeps projects organized, collaborative and delivered with excellence every time.",
   },
 ];
