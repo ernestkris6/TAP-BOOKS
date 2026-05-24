@@ -16,45 +16,45 @@ import {
 
 const teamMembers = [
   {
-    name: "Sophia Williams",
-    role: "Creative Director",
+    name: "Temilorun Adebiyi Priscilla",
+    role: "Author",
     image: Temi,
-    bio: "Leads the brand vision and ensures every project feels timeless, elegant and impactful.",
+    bio: "Adebiyi Temilorun Priscilla writes Children’s and YA literature With a B.Ed. in Educational Management from Obafemi Awolowo University and a professional background in Human Resources (ACIPM), When she isn’t writing or watching children play, she is an aspiring pro athlete in volleyball and badminton. ",
   },
 
   {
-    name: "Daniel Carter",
+    name: "Rolake Ogunfeitimi",
     role: "Frontend Developer",
     image: rol,
-    bio: "Builds smooth, responsive interfaces that bring digital experiences to life beautifully.",
+    bio: "Rolake Ogunfeitimi is a writer, communications professional, and creative storyteller with experience in media, branding, and strategic communications. She is passionate about meaningful storytelling, creativity, and using communication to inspire impact and connection. She enjoys editing, creative writing, and helping bring projects to life through thoughtful feedback and attention to detail. As a contribution to the team, she supports content development by reviewing and refining written materials, polishing copy, and ensuring clarity and consistency.",
   },
 
   {
-    name: "Amara Johnson",
+    name: "Victor Pelumi Akintade",
     role: "Product Designer",
     image: vic,
-    bio: "Designs intuitive user experiences with modern layouts and thoughtful visual storytelling.",
+    bio: "Akintade Jesupelumi Victor is a Lawyer and content Strategist that helps brands build authority with the right kind of content. When he isn't writing and strategizing, he is reading a book, watching anime or discussing scriptures.",
   },
 
   {
-    name: "Michael Brown",
+    name: "Adewoyin Temiloluwa",
     role: "Backend Engineer",
     image: temi2,
-    bio: "Handles APIs, databases and architecture powering reliable scalable platforms.",
+    bio: "Adewoyin Temiloluwa Omoladearugbo is a Philosophy student at the University of Ibadan with a passion for critical thinking, creativity, and meaningful expression. Alongside academic interests in philosophy, writing poems, and reading books. Temi is also an editor with a keen eye for detail and storytelling. Known for blending intellect with creativity, Temi enjoys writing, content creation, and exploring deep conversations that connect ideas, people, and society.",
   },
 
   {
-    name: "Grace Thompson",
+    name: "Joshua Comanche",
     role: "Marketing Strategist",
     image: Joshua,
-    bio: "Crafts campaigns that connect emotionally and help brands grow authentically.",
+    bio: "Joshua who enjoys playing a lot of sports , volleyball included and fears God. I have a background in software engineering and I spend most of the time working as a QA engineer. when I'm not working Im fun to be around and have a lot of hobbies I use to keep myself company like watching movies/series , playing games , conversations etc.",
   },
 
   {
-    name: "David Smith",
+    name: "Adediran Progress",
     role: "Project Manager",
     image: Adediran,
-    bio: "Keeps projects organized, collaborative and delivered with excellence every time.",
+    bio: "Adediran Progress Oluwatobiloba is an graduate of the department of architecture OAU and an illustrator with a passion for visual story telling and art.",
   },
 ];
 
