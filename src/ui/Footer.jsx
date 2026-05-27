@@ -1,7 +1,8 @@
 import React from "react";
-import { AiFillTikTok } from "react-icons/ai";
 import { NavLink } from "react-router-dom";
+import Logo from "./Logo";
 // import { FaInstagram, FaWhatsapp } from "react-icons/fa";
+import { AiFillTikTok } from "react-icons/ai";
 import { FiFacebook, FiInstagram, FiMail, FiTwitter, } from "react-icons/fi";
 import { SiTiktok, SiWhatsapp } from "react-icons/si";
 
@@ -50,10 +51,11 @@ export default function Footer() {
 
         {/* Brand */}
         <div className="text-center font-serif">
-          <span className="block text-xs tracking-[0.3em] font-sans text-gray-600 mb-1">
+          <Logo />
+          {/* <span className="block text-xs tracking-[0.3em] font-sans text-gray-600 mb-1">
             GRACE
           </span>
-          <span className="text-2xl md:text-3xl font-semibold">Bryant</span>
+          <span className="text-2xl md:text-3xl font-semibold">Bryant</span> */}
         </div>
 
         {/* Socials */}
