@@ -17,44 +17,44 @@ import {
 const teamMembers = [
   {
     name: "Temilorun Adebiyi Priscilla",
-    role: "Author",
+    role: "Creative Writer",
     image: Temi,
-    bio: "Adebiyi Temilorun Priscilla writes Children’s and YA literature With a B.Ed. in Educational Management from Obafemi Awolowo University and a professional background in Human Resources (ACIPM), When she isn’t writing or watching children play, she is an aspiring pro athlete in volleyball and badminton. ",
+    bio: "Adebiyi Temilorun Priscilla writes Children’s and Y.A literature With a B.Ed. in Educational Management from Obafemi Awolowo University and a professional background in Human Resources (ACIPM), When she isn’t writing or watching children play, she is an aspiring pro athlete in volleyball and badminton. ",
   },
 
   {
     name: "Rolake Ogunfeitimi",
-    role: "Frontend Developer",
+    role: "Y.A Editor & Proof Reader",
     image: rol,
     bio: "Rolake Ogunfeitimi is a writer, communications professional, and creative storyteller with experience in media, branding, and strategic communications. She is passionate about meaningful storytelling, creativity, and using communication to inspire impact and connection. She enjoys editing, creative writing, and helping bring projects to life through thoughtful feedback and attention to detail. As a contribution to the team, she supports content development by reviewing and refining written materials, polishing copy, and ensuring clarity and consistency.",
   },
 
   {
     name: "Victor Pelumi Akintade",
-    role: "Product Designer",
+    role: "Y.A Developmental & Line Editor",
     image: vic,
     bio: "Akintade Jesupelumi Victor is a Lawyer and content Strategist that helps brands build authority with the right kind of content. When he isn't writing and strategizing, he is reading a book, watching anime or discussing scriptures.",
   },
 
   {
     name: "Adewoyin Temiloluwa",
-    role: "Backend Engineer",
+    role: "Children's Book Editor",
     image: temi2,
     bio: "Adewoyin Temiloluwa Omoladearugbo is a Philosophy student at the University of Ibadan with a passion for critical thinking, creativity, and meaningful expression. Alongside academic interests in philosophy, writing poems, and reading books. Temi is also an editor with a keen eye for detail and storytelling. Known for blending intellect with creativity, Temi enjoys writing, content creation, and exploring deep conversations that connect ideas, people, and society.",
   },
 
   {
     name: "Joshua Comanche",
-    role: "Marketing Strategist",
+    role: "Y.A Novel Sports Editor",
     image: Joshua,
-    bio: "Joshua who enjoys playing a lot of sports , volleyball included and fears God. I have a background in software engineering and I spend most of the time working as a QA engineer. when I'm not working Im fun to be around and have a lot of hobbies I use to keep myself company like watching movies/series , playing games , conversations etc.",
+    bio: "Joshua enjoys playing a lot of sports , volleyball included and fears God. He has a background in software engineering and spends most of the time working as a QA engineer. when I'm not working Im fun to be around and have a lot of hobbies I use to keep myself company like watching movies/series , playing games , conversations etc.",
   },
 
   {
     name: "Adediran Progress",
-    role: "Project Manager",
+    role: "Children's Book Illustrator",
     image: Adediran,
-    bio: "Adediran Progress Oluwatobiloba is an graduate of the department of architecture OAU and an illustrator with a passion for visual story telling and art.",
+    bio: "Adediran Progress Oluwatobiloba is a graduate of the department of Architecture O.A.U and an Illustrator with a passion for visual story telling and art.",
   },
 ];
 
@@ -79,7 +79,7 @@ export default function TeamMembers() {
   };
 
   return (
-   <div>
+   <div id='team'>
         {/* TEAM GRID SECTION */}
               <section className="py-24 px-6 lg:px-16">
         
