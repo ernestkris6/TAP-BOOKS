@@ -19,7 +19,7 @@ const teamMembers = [
     name: "Temilorun Adebiyi Priscilla",
     role: "Creative Writer",
     image: Temi,
-    bio: "Adebiyi Temilorun Priscilla writes Children’s and Y.A literature With a B.Ed. in Educational Management from Obafemi Awolowo University and a professional background in Human Resources (ACIPM), When she isn’t writing or watching children play, she is an aspiring pro athlete in volleyball and badminton. ",
+    bio: "Adebiyi Temilorun Priscilla writes Children’s and Young Adults literature With a B.Ed. in Educational Management from Obafemi Awolowo University and a professional background in Human Resources (ACIPM), When she isn’t writing or watching children play, she is an aspiring pro athlete in volleyball and badminton. ",
   },
 
   {
@@ -33,21 +33,21 @@ const teamMembers = [
     name: "Victor Pelumi Akintade",
     role: "Y.A Developmental & Line Editor",
     image: vic,
-    bio: "Akintade Jesupelumi Victor is a Lawyer and content Strategist that helps brands build authority with the right kind of content. When he isn't writing and strategizing, he is reading a book, watching anime or discussing scriptures.",
+    bio: "Akintade Jesupelumi Victor is a Lawyer and Content Strategist that help brands build authority with the right kind of content. When he isn't writing and strategizing, he is reading a book, watching anime or discussing scriptures.",
   },
 
   {
     name: "Adewoyin Temiloluwa",
     role: "Children's Book Editor",
     image: temi2,
-    bio: "Adewoyin Temiloluwa Omoladearugbo is a Philosophy student at the University of Ibadan with a passion for critical thinking, creativity, and meaningful expression. Alongside academic interests in philosophy, writing poems, and reading books. Temi is also an editor with a keen eye for detail and storytelling. Known for blending intellect with creativity, Temi enjoys writing, content creation, and exploring deep conversations that connect ideas, people, and society.",
+    bio: "Adewoyin Temiloluwa Omoladearugbo is a Student of Philosophy at the University of Ibadan with a passion for critical thinking, creativity, and meaningful expression. Alongside academic interests in philosophy, writing poems, and reading books. Temi is also an editor with a keen eye for detail and storytelling. Known for blending intellect with creativity, Temi enjoys writing, content creation, and exploring deep conversations that connect ideas, people, and society.",
   },
 
   {
     name: "Joshua Comanche",
     role: "Y.A Novel Sports Editor",
     image: Joshua,
-    bio: "Joshua enjoys playing a lot of sports , volleyball included and fears God. He has a background in software engineering and spends most of the time working as a QA engineer. when I'm not working Im fun to be around and have a lot of hobbies I use to keep myself company like watching movies/series , playing games , conversations etc.",
+    bio: "Joshua enjoys playing a lot of sports , volleyball included and fears God. He has a background in software engineering and spends most of the time working as a Q.A engineer. When not working, he is fun to have around and has a number of hobbies. He keeps himself company by watching movies/series , playing games , conversations etc.",
   },
 
   {
