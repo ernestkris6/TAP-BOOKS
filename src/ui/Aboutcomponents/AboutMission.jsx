@@ -30,12 +30,12 @@ export default function AboutMission() {
         </motion.div>
 
         {/* TEXT SECTION */}
-        <div className="space-y-6 order-1 sm:order-2">
+        <div className="space-y-1 order-1 sm:order-2">
 
           <motion.p
             {...fadeUp}
             transition={{ duration: 0.8 }}
-            className="uppercase tracking-[0.3em] text-sm text-stone-500"
+            className="uppercase pb-2 tracking-[0.3em] text-sm text-stone-500"
           >
             Our Mission
           </motion.p>
