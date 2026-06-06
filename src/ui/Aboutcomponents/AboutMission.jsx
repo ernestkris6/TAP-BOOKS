@@ -1,5 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
+import coll9 from '../../assets/coll9.jpg';
 
 export default function AboutMission() {
 
@@ -20,7 +22,7 @@ export default function AboutMission() {
           transition={{ duration: 1 }}
         >
           <img
-            src="https://images.unsplash.com/photo-1516979187457-637abb4f9353?q=80&w=2070&auto=format&fit=crop"
+            src={coll9}
             alt="Library"
             className="hidden lg:block rounded-2xl shadow-xl h-[500px] w-full object-cover hover:scale-105 transition-transform duration-700"
           />
@@ -109,7 +111,7 @@ export default function AboutMission() {
         </p>
 
         <button className="bg-yellow-400 hover:bg-yellow-300 text-black px-8 py-4 rounded-xs font-semibold cursor-pointer transition-all duration-500 hover:px-10">
-          Browse Books
+          <Link to='/books'>Browse Books</Link>
         </button>
       </motion.div>
 

@@ -8,7 +8,7 @@ import { motion } from 'framer-motion';
 // import image6 from "../../assets/image5.webp";
 import coll6 from '../../assets/coll6.jpg'
 import coll7 from '../../assets/coll7.jpg'
-import coll8 from '../../assets/coll8.jpg'
+import coll10 from '../../assets/coll10.jpg'
 import coll5 from '../../assets/coll5.jpg'
 
 export default function OurCulture() {
@@ -116,7 +116,7 @@ export default function OurCulture() {
               />
 
               <img
-                src={coll8}
+                src={coll10}
                 alt="Team"
                 className="rounded-md h-[250px] w-full object-cover"
                 loading="lazy"

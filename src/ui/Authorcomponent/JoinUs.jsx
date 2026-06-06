@@ -45,18 +45,17 @@ export default function JoinUs() {
           </h2>
 
           <p className="text-stone-300 text-lg leading-relaxed max-w-2xl mx-auto mb-10">
-            Whether you're building a brand, launching a product or creating
-            a digital experience, our team is ready to bring your vision to life.
+            Whether you're a lover of good reads, a young adult or a fanatic, our team is ready to give you OUR VERY BEST!
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-5">
 
             <button className="bg-white text-stone-900 px-8 py-4 rounded-xs font-medium hover:px-10 transition-all duration-500 cursor-pointer">
-              Start A Project
+              Chat With US
             </button>
 
             <button className="border border-white/30 px-8 py-4 rounded-xs hover:bg-white hover:text-stone-900 transition-all duration-500 cursor-pointer">
-              Join Our Team
+              Join US
             </button>
 
           </div>
@@ -66,3 +65,12 @@ export default function JoinUs() {
 
   )
 }
+
+
+
+
+
+
+
+
+

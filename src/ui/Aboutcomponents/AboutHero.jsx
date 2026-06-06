@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import abtbg from "../../assets/abtbg.webp";
+import { Link } from "react-router-dom";
 
 export default function TapBooksAboutPage() {
 
@@ -61,11 +62,11 @@ export default function TapBooksAboutPage() {
               className="flex flex-wrap gap-4 pt-2"
             >
               <button className="bg-yellow-400 hover:bg-yellow-300 text-black px-7 py-4 rounded-xs font-semibold transition-all duration-500 hover:px-9">
-                Explore Collection
+                <Link to='/books'>Explore Collection</Link>
               </button>
 
               <button className="border border-white/40 hover:bg-white hover:text-black px-7 py-4 rounded-xs font-semibold transition-all duration-500">
-                Contact Us
+                <Link to='/contact'>Contact US</Link>
               </button>
             </motion.div>
 

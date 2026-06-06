@@ -65,7 +65,7 @@ export default function Counter({
         {String(count).padStart(2, "0")}
       </p>
 
-      <p className="text-gray-600 mt-1">
+      <p className="text-gray-600 mt-2">
         {label}
       </p>
     </div>
