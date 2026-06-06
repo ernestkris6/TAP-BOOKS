@@ -66,7 +66,7 @@ export default function OurCulture() {
                 </h3>
 
                 <p className="text-stone-600">
-                  Creative Projects
+                  Books Published
                 </p>
               </div>
 
@@ -76,7 +76,7 @@ export default function OurCulture() {
                 </h3>
 
                 <p className="text-stone-600">
-                  Industry Experts
+                  Creative Minds
                 </p>
               </div>
 
