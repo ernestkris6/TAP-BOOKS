@@ -96,7 +96,7 @@ export default function BestSelling() {
                 delay: index * 0.2,
               }}
               className={`group ${
-                index === 1 ? "lg:mt-16" : ""
+                index === 1 ? "lg:mt-8" : ""
               }`}
             >
               <div className="bg-white rounded-xs overflow-hidden shadow-sm hover:shadow-2xl hover:-translate-y-2 transition-all duration-500">
