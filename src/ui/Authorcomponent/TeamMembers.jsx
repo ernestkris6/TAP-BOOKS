@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from "framer-motion";
-import Temi from "../../assets/Temi.jpg";
+import Temi from "../../assets/temii.jpg";
 import rol from "../../assets/rol.jpg";
 import vic from "../../assets/vic.jpg";
 import temi2 from "../../assets/temi2.png";

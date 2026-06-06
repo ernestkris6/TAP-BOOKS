@@ -38,7 +38,7 @@ export default function ContactConvo() {
             </h2>
 
             <p className="max-w-3xl mx-auto text-lg text-stone-600 leading-relaxed">
-              We collaborate with readers, creators, authors and brands who believe in meaningful storytelling and creativity.
+              We are open to hear from readers, creators, authors and brands who believe in meaningful storytelling and creativity.
             </p>
           </motion.div>
 
@@ -97,7 +97,7 @@ export default function ContactConvo() {
               </h3>
 
               <p className="text-stone-600 leading-relaxed">
-                Readers and creatives from around the world connect through our platform.
+                Readers and creatives from around the world connect through our platforms.
               </p>
             </motion.div>
 
