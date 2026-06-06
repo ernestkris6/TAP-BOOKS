@@ -70,7 +70,7 @@ export default function OurCulture() {
                 </p>
               </div>
 
-              <div className="bg-white rounded-md p-6 shadow-sm">
+              <div className="bg-yellow-300 rounded-md p-6 shadow-sm">
                 <h3 className="text-4xl font-serif text-stone-800 mb-2">
                   6+
                 </h3>

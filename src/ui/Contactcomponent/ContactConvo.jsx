@@ -97,7 +97,7 @@ export default function ContactConvo() {
               </h3>
 
               <p className="text-stone-600 leading-relaxed">
-                Readers and creatives from around the world connect through our platforms.
+                Readers and creatives from around the world connect through our social media platforms.
               </p>
             </motion.div>
 
