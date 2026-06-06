@@ -96,7 +96,7 @@ export default function TeamMembers() {
         
                     <p className="text-stone-600 max-w-2xl mx-auto leading-relaxed text-lg">
                       Every member of our team brings unique creativity, energy and expertise
-                      that helps us deliver unforgettable experiences.
+                      that helps us deliver beautiful experiences.
                     </p>
                   </motion.div>
         

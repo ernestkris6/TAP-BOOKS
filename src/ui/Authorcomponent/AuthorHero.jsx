@@ -62,8 +62,8 @@ export default function AuthorHero() {
             transition={{ duration: 1, delay: 0.4 }}
             className="mt-8 text-stone-600 max-w-2xl mx-auto text-lg leading-relaxed"
           >
-            We are a passionate team of creators, strategists, designers and developers
-            committed to building experiences that inspire people and elevate brands.
+            We are a passionate team of writers, editors, designers and illustrators
+            committed to building experiences that inspire and elevate our Readers.
           </motion.p>
 
           <motion.div

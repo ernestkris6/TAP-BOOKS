@@ -1,12 +1,15 @@
 import React from 'react'
 import { motion } from 'framer-motion';
-import image1 from "../../assets/abtbg.webp";
-import image2 from "../../assets/image2.webp";
-import image3 from "../../assets/image3.webp";
+// import image1 from "../../assets/abtbg.webp";
+// import image2 from "../../assets/image2.webp";
+// import image3 from "../../assets/image3.webp";
 // import image4 from "../../assets/image4.webp";
-import image5 from "../../assets/image5.webp";
+// import image5 from "../../assets/image5.webp";
 // import image6 from "../../assets/image5.webp";
-
+import coll6 from '../../assets/coll6.jpg'
+import coll7 from '../../assets/coll7.jpg'
+import coll8 from '../../assets/coll8.jpg'
+import coll5 from '../../assets/coll5.jpg'
 
 export default function OurCulture() {
 
@@ -52,14 +55,14 @@ export default function OurCulture() {
 
             <p className="text-stone-600 text-base md:text-lg leading-relaxed">
               We believe the best work comes from teamwork, trust and shared creativity.
-              From strategy to execution, every project is shaped by collaboration and passion.
+              From strategy to execution, every book is shaped by collaboration and passion.
             </p>
 
             <div className="grid grid-cols-2 gap-6 pt-4">
 
               <div className="bg-white rounded-md p-6 shadow-sm">
                 <h3 className="text-4xl font-serif text-stone-800 mb-2">
-                  25+
+                  10+
                 </h3>
 
                 <p className="text-stone-600">
@@ -69,7 +72,7 @@ export default function OurCulture() {
 
               <div className="bg-white rounded-md p-6 shadow-sm">
                 <h3 className="text-4xl font-serif text-stone-800 mb-2">
-                  10+
+                  6+
                 </h3>
 
                 <p className="text-stone-600">
@@ -90,14 +93,14 @@ export default function OurCulture() {
 
             <div className="space-y-5">
               <img
-                src={image1}
+                src={coll5}
                 alt="Team"
                 className="rounded-md h-[250px] w-full object-cover"
                 loading="lazy"
               />
 
               <img
-                src={image3}
+                src={coll6}
                 alt="Team"
                 className="rounded-md h-[180px] w-full object-cover"
                 loading="lazy"
@@ -106,14 +109,14 @@ export default function OurCulture() {
 
             <div className="space-y-5 pt-12">
               <img
-                src={image5}
+                src={coll7}
                 alt="Team"
                 className="rounded-md h-[180px] w-full object-cover"
                 loading="lazy"
               />
 
               <img
-                src={image2}
+                src={coll8}
                 alt="Team"
                 className="rounded-md h-[250px] w-full object-cover"
                 loading="lazy"
