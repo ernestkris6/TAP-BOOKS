@@ -30,7 +30,7 @@ export default function AboutCta() {
             transition={{ duration: 1, delay: 0.2 }}
             className="text-2xl lg:text-4xl font-bold leading-tight"
           >
-            Start Your Reading Journey With TAP Books.
+            Start Your Reading Journey HERE.
           </motion.h2>
 
           {/* DESCRIPTION */}
@@ -39,8 +39,8 @@ export default function AboutCta() {
             transition={{ duration: 1, delay: 0.4 }}
             className="text-base md:text-lg text-gray-300 max-w-2xl mx-auto leading-relaxed"
           >
-            Discover books that challenge your thinking, inspire creativity,
-            and fuel your growth.
+              Ready to dive into a world of books that challenge your thinking, inspire creativity,
+            and fuel your growth?
           </motion.p>
 
           {/* BUTTON */}
