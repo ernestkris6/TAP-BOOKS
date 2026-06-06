@@ -20,16 +20,17 @@ export default function AboutMission() {
         <motion.div
           {...fadeUp}
           transition={{ duration: 1 }}
+          className="order-2 sm:order-1"
         >
           <img
             src={coll9}
             alt="Library"
-            className="hidden lg:block rounded-2xl shadow-xl h-[500px] w-full object-cover hover:scale-105 transition-transform duration-700"
+            className="rounded-2xl shadow-xl h-[500px] w-full object-cover hover:scale-105 transition-transform duration-700"
           />
         </motion.div>
 
         {/* TEXT SECTION */}
-        <div className="space-y-6">
+        <div className="space-y-6 order-1 sm:order-2">
 
           <motion.p
             {...fadeUp}
