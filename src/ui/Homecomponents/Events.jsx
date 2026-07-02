@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-import image2 from "../../assets/image2.webp";
+import image2 from "../../assets/tenibus.jpg";
 
 import { FiMapPin, FiPhone } from "react-icons/fi";
 
