@@ -49,10 +49,12 @@ export default function TapBooksAboutPage() {
               transition={{ duration: 1, delay: 0.4 }}
               className="text-lg text-gray-300 leading-relaxed max-w-xl"
             >
-              TAP Books is more than just reading — we are a community built
+              We exist because we believe that every creative idea is a brilliant gift from God, designed to spark wonder. 
+              Driven by writing, YA, sports, and faith, we are  a vibrant platform where children can fall in love with reading, discover vital life lessons, and experience the pure joy of storytelling.
+              {/* TAP Books is more than just reading — we are a community built
               around curiosity, imagination, and lifelong learning. We connect
               readers with books that inspire growth, creativity, and powerful
-              conversations.
+              conversations. */}
             </motion.p>
 
             {/* BUTTONS */}

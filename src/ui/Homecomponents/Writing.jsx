@@ -73,7 +73,11 @@ export default function Writing() {
             </h2>
 
             <p className="text-stone-600 text-base md:text-lg leading-relaxed">
-              TAP Books was founded on a deep love for storytelling and the belief that words have the power to shape minds and inspire change. Each book we publish is carefully crafted to connect with readers, spark imagination, and leave a meaningful impact long after the final page is turned.
+              God gives the ideas. We write it!
+              Welcome to TAP Books!
+              Where storytelling is seamlessly weaved with fun, faith, and interactive learning. We don't just write stories—we build worlds. Dive into our vibrant collection of children’s and YA books, packed with hands-on activities, paper checklists, and engaging word and picture play. We offer a curated selection of compelling general fiction.
+              There is a story waiting here for everyone!
+              {/* TAP Books was founded on a deep love for storytelling and the belief that words have the power to shape minds and inspire change. Each book we publish is carefully crafted to connect with readers, spark imagination, and leave a meaningful impact long after the final page is turned. */}
             </p>
             
             <p className='text-stone-600 text-base md:text-lg leading-relaxed'>Stories have the power to transform the way we see the world — and at TAP Books, that belief drives everything we do.</p>
