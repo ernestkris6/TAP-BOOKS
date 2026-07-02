@@ -87,7 +87,7 @@ const fadeUp = {
             <motion.div
               {...fadeUp}
               transition={{ duration: 1, delay: 0.4 }}
-              className="bg-white/70 backdrop-blur-xl border border-white/40 rounded-xs shadow-2xl p-8 lg:p-10"
+              className="bg-white/70 backdrop-blur-xl border border-white/40 rounded-xs shadow-2xl px-4 py-6"
             >
 
               <h2 className="text-2xl font-serif mb-3 text-stone-800">
