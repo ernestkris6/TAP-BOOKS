@@ -102,26 +102,40 @@ export default function AboutMission() {
       </div>
 
       {/* FINAL CTA BLOCK */}
-      <motion.div
-        {...fadeUp}
-        transition={{ duration: 1, delay: 0.7 }}
-        className="max-w-5xl mx-auto text-center mt-24"
+      <div className="max-w-5xl mx-auto text-center mt-24"
       >
-        <h2 className="text-2xl lg:text-4xl font-semibold mb-6 leading-tight text-stone-800">
+        <motion.h2 
+        {...fadeUp}
+        transition={{ duration: 0.8, delay: 0.2 }}
+        className="text-2xl lg:text-4xl font-semibold mb-6 leading-tight text-stone-800">
           OUR VISION - What We SEE
           {/* Start Your Reading Journey With TAP Books. */}
-        </h2>
+        </motion.h2>
 
-        <p className="text-lg text-stone-700 max-w-2xl mx-auto mb-10 leading-relaxed">
+        <motion.p 
+        {...fadeUp}
+        transition={{ duration: 0.8, delay: 0.4 }}
+        className="text-stone-700 max-w-2xl mx-auto mb-10 leading-relaxed">
           To build a globally recognized, high-impact brand that weaves faith, imagination, and culture into diverse media. We envision weaving Godly values and thrilling stories that come alive through bestselling children’s books, dynamic youth sports novels, action-packed comic series, animation, and gaming—creating lucid, unforgettable experiences for the next generation.
           {/* Discover books that challenge your thinking, inspire creativity,
           and fuel your growth. */}
-        </p>
+        </motion.p>
 
-        <button className="bg-yellow-400 hover:bg-yellow-300 text-black px-8 py-4 rounded-xs font-semibold cursor-pointer transition-all duration-500 hover:px-10">
+          <motion.div
+            {...fadeUp}
+            transition={{ duration: 0.8, delay: 0.6 }}
+          >
+           <Link to='books'>
+              <button className="bg-yellow-400 hover:bg-yellow-300 text-black px-8 py-4 rounded-xs font-semibold cursor-pointer transition-all duration-500 hover:px-10 hover:shadow-lg">
+                <Link to='/books'>Browse Books</Link>
+              </button>
+           </Link>
+          </motion.div>
+        
+        {/* <button className="bg-yellow-400 hover:bg-yellow-300 text-black px-8 py-4 rounded-xs font-semibold cursor-pointer transition-all duration-500 hover:px-10">
           <Link to='/books'>Browse Books</Link>
-        </button>
-      </motion.div>
+        </button> */}
+      </div>
 
     </section>
   );
