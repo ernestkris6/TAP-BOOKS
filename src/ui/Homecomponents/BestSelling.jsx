@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
-import image1 from "../../assets/image1.webp";
-import image3 from "../../assets/image3.webp";
-import image4 from "../../assets/image4.webp";
+import image1 from "../../assets/cover.jpg";
+import image3 from "../../assets/tenibus.jpg";
+import image4 from "../../assets/newimage.jpg";
 
 const books = [
   {
