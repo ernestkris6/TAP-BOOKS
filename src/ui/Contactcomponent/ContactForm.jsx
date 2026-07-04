@@ -35,7 +35,7 @@ const fadeUp = {
                   {/* Connect with Our Team is always open to conversations that inspire ideas,
                   creativity, and growth. */}
 
-                <p className="text-sm sm:text-base text-stone-300 leading-relaxed mb-10">
+                <p className="text-sm sm:text-base text-stone-300 leading-relaxed mb-8">
                   Feel free to reach out to inspire ideas,
                   creativity, and growth...
                 </p>
