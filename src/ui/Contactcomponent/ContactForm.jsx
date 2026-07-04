@@ -29,7 +29,7 @@ const fadeUp = {
 
               <div className="relative z-10">
 
-                <h2 className="text-2xl font-serif mb-4 leading-tight">
+                <h2 className="text-base sm:text-2xl font-serif mb-4 leading-tight">
                   Let’s build something meaningful together.
                 </h2>
 
@@ -46,8 +46,8 @@ const fadeUp = {
                     </div>
 
                     <div>
-                      <h3 className="text-lg font-medium mb-1">Email Address</h3>
-                      <p className="text-stone-300">
+                      <h3 className="text-base sm:text-lg font-medium mb-1">Email Address</h3>
+                      <p className="text-xs sm:text-base text-stone-300">
                         tapbooks2025@gmail.com
                       </p>
                     </div>
@@ -59,8 +59,8 @@ const fadeUp = {
                     </div>
 
                     <div>
-                      <h3 className="text-lg font-medium mb-1">Phone Number</h3>
-                      <p className="text-stone-300">
+                      <h3 className="text-base sm:text-lg font-medium mb-1">Phone Number</h3>
+                      <p className="text-xs sm:text-base text-stone-300">
                         +234 701 0757 4608
                       </p>
                     </div>
@@ -72,8 +72,8 @@ const fadeUp = {
                     </div>
 
                     <div>
-                      <h3 className="text-lg font-medium mb-1">Office Location</h3>
-                      <p className="text-stone-300">
+                      <h3 className="text-base sm:text-lg font-medium mb-1">Office Location</h3>
+                      <p className="text-xs sm:text-base text-stone-300">
                         Lagos, Nigeria
                       </p>
                     </div>
