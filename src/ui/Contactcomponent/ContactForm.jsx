@@ -29,13 +29,15 @@ const fadeUp = {
 
               <div className="relative z-10">
 
-                <h2 className="text-base sm:text-2xl font-serif mb-4 leading-tight">
+                <h2 className="text-xl sm:text-2xl font-serif mb-4 font-medium leading-tight">
                   Let’s build something meaningful together.
                 </h2>
+                  {/* Connect with Our Team is always open to conversations that inspire ideas,
+                  creativity, and growth. */}
 
-                <p className="text-stone-300 leading-relaxed mb-10">
-                  Our team is always open to conversations that inspire ideas,
-                  creativity, and growth.
+                <p className="text-sm sm:text-base text-stone-300 leading-relaxed mb-10">
+                  Feel free to reach out to inspire ideas,
+                  creativity, and growth...
                 </p>
 
                 <div className="space-y-6">
