@@ -64,7 +64,7 @@ export default function Writing() {
             transition={{ duration: 1 }}
             className="space-y-2 order-2"
           >
-            <p className="uppercase tracking-[0.3em] text-sm text-stone-600">
+            <p className="uppercase tracking-[0.3em] text-xs sm:text-sm text-stone-600">
               THE STORY OF
             </p>
 
@@ -72,7 +72,7 @@ export default function Writing() {
               TAP BOOKS
             </h2>
 
-            <p className="text-stone-600 text-base md:text-lg leading-relaxed">
+            <p className="text-stone-600 text-sm sm:text-base leading-relaxed">
               God gives the ideas. We write it!
               Welcome to TAP Books!
               Where storytelling is seamlessly weaved with fun, faith, and interactive learning. We don't just write stories—we build worlds. Dive into our vibrant collection of children’s and YA books, packed with hands-on activities, paper checklists, and engaging word and picture play. We offer a curated selection of compelling general fiction.

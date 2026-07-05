@@ -73,7 +73,7 @@ export default function BestSelling() {
           >
             <Link
               to="/books"
-              className="group inline-flex items-center gap-2 text-stone-700 border-b border-stone-400 pb-1 hover:gap-3 transition-all duration-300"
+              className="group inline-flex items-center gap-2 text-stone-700 font-semibold border-b border-stone-400 pb-1 hover:gap-3 transition-all duration-300"
             >
               View All Books
 
@@ -107,7 +107,7 @@ export default function BestSelling() {
                     src={book.image}
                     alt={book.title}
                     loading="lazy"
-                    className="w-full h-[420px] object-cover transition-transform duration-700 group-hover:scale-110"
+                    className="w-full aspect-[2/3] object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                 </div>
 

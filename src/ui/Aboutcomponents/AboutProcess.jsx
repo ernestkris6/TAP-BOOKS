@@ -214,8 +214,8 @@ const fadeUp = {
             build character, and leave a lasting legacy for generations.
           </motion.p>
 
-          <div className="mt-10 inline-flex rounded-sm bg-white/20 px-6 py-3 backdrop-blur-sm">
-            <span className="font-semibold tracking-wider uppercase">
+          <div className="mt-10 inline-flex rounded-sm bg-white/20 px-4 py-2 backdrop-blur-sm">
+            <span className="text-sm sm:text-base font-semibold tracking-wider uppercase">
               Creativity • Excellence • Legacy
             </span>
           </div>
