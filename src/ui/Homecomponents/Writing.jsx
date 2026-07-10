@@ -45,12 +45,13 @@ export default function Writing() {
            }}
           className='py-5'>
           <p className="text-center text-stone-800">
-            Words have the power to linger long after the final page is turned.
+            {/* Words have the power to linger long after the final page is turned. */}
+            Weaving words. Creating lucid images and experiences across diverse storytelling forms."
           </p>
-          <p className="text-center text-stone-800">
+          {/* <p className="text-center text-stone-800">
             Here, you find stories shaped with care, crafted to stir emotions
            beautiful enough to stay with you.
-         </p>
+         </p> */}
         </motion.div>
       </div>
               {/* CULTURE SECTION */}

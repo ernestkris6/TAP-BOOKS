@@ -54,10 +54,11 @@ export default function HeroSection() {
             transition={{ duration: 1, delay: 0.4 }}
             className="text-stone-600 text-lg leading-relaxed max-w-xl"
           >
-            Step into stories filled with suspense, unforgettable characters
-            and unexpected twists by
+            {/* Step into stories filled with suspense, unforgettable characters
+            and unexpected twists by */}
+            Discover exciting, interactive stories where fun meets learning. There is always something brilliant waiting for you at TAP Books!"
             <span className="block mt-2 font-medium tracking-wide text-stone-700">
-              TEMILORUN AEBIYI PRISCILLA
+              TEMILORUN ADEBIYI PRISCILLA
             </span>
           </motion.p>
 

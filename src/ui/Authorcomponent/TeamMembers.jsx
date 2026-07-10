@@ -31,7 +31,7 @@ const teamMembers = [
 
   {
     name: "Victor Pelumi Akintade",
-    role: "Y.A Developmental & Line Editor",
+    role: "Y.A Developmental & Line Editor/Legal Personnel",
     image: vic,
     bio: "Akintade Jesupelumi Victor is a Lawyer and Content Strategist that help brands build authority with the right kind of content. When he isn't writing and strategizing, he is reading a book, watching anime or discussing scriptures.",
   },
