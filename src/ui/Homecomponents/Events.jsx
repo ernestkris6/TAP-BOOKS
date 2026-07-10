@@ -68,7 +68,8 @@ const fadeUp = {
             }}
             className="text-3xl md:text-4xl font-serif font-medium text-gray-900"
           >
-            Get a special copy signed by me
+            {/* Get a special copy signed by me */}
+            TAPbooks Play: TM Games & Activities.
           </motion.h2>
 
           <motion.p
@@ -79,7 +80,19 @@ const fadeUp = {
             }}
             className="text-gray-600 max-w-md"
           >
-            Own a signed copy, personally inscribed straight from me to you.
+            For every story… there’s a fun activity or game to play! 
+          </motion.p>
+
+           <motion.p
+            {...fadeUp}
+            transition={{
+              duration: 1,
+              delay: 0.4,
+            }}
+            className="text-gray-600 max-w-md"
+          >
+            This is the interactive of the TAPbooks ecosystem. From interactive checklists and board games to card games, word anagrams, cryptograms, and picture-hunt stories, every single narrative is transformed into an experience.  Because for every story… there’s a fun activity or game to play!
+            Every TM game is crafted from eco -  friendly sustainable materials.
           </motion.p>
 
           {/* Divider */}
