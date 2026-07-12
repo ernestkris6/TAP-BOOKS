@@ -18,7 +18,7 @@ export default function ContactForm() {
   };
 
 
-  const [state, handleSubmit] = useForm(import.meta.env.VITE_FORMSPREE_ID);
+  const [state, handleSubmit] = useForm(import.meta.env.VITE_FORMSPREE_ID || "mvzzgoqp");
 
 console.log("msg", import.meta.env.VITE_FORMSPREE_ID);
 
