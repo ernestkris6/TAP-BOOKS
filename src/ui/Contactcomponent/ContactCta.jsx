@@ -77,11 +77,13 @@ export default function ContactCta() {
                   </h3>
                 </div>
 
-                <button className="mt-4 bg-yellow-400 hover:bg-yellow-300 text-black px-8 py-4 rounded-xs font-semibold transition-all duration-500 hover:px-10 cursor-pointer inline-flex items-center gap-3">
-                  WhatsApp
-
+                <a href="https://wa.me/2347010757468?text=Hello%20TAP%20Books%2C%20I%20would%20like%20to%20make%20an%20inquiry%about%your%books" target="_blank" rel="noopener noreferrer">
+                <button 
+                  className="mt-4 bg-yellow-400 hover:bg-yellow-300 text-black px-8 py-4 rounded-xs font-semibold transition-all duration-500 hover:px-10 cursor-pointer inline-flex items-center gap-3">
+                    WhatsApp
                   <FiArrowRight />
                 </button>
+              </a>
 
               </div>
             </motion.div>

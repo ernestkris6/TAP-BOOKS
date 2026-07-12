@@ -18,9 +18,10 @@ export default function ContactForm() {
   };
 
 
+
   const [state, handleSubmit] = useForm(import.meta.env.VITE_FORMSPREE_ID || "mvzzgoqp");
 
-console.log("msg", import.meta.env.VITE_FORMSPREE_ID);
+// console.log("msg", import.meta.env.VITE_FORMSPREE_ID);
 
   const [toast, setToast] = useState(null);
 
@@ -31,6 +32,8 @@ console.log("msg", import.meta.env.VITE_FORMSPREE_ID);
   useEffect(() => {
 
     if (state.succeeded) {
+
+      if(!state.succeeded) return;
 
       setToast({
         type: "success",

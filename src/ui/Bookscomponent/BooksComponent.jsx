@@ -197,11 +197,12 @@ export default function Books() {
               "Books are more than pages—they are experiences that inspire imagination, shape character and leave lasting memories."
             </h2>
 
-            <button className="mt-8 bg-yellow-400 hover:bg-yellow-300 text-black px-7 py-3.5 rounded-sm transition duration-300 cursor-pointer">
-
-              CHAT WITH US
-
+          <a href="https://wa.me/2347010757468?text=Hello%20TAP%20Books%2C%20I%20would%20like%20to%20make%20an%20inquiry%about%your%books" target="_blank" rel="noopener noreferrer">
+            <button 
+              className="mt-8 bg-yellow-400 hover:bg-yellow-300 text-black px-7 py-3.5 rounded-sm transition duration-300 cursor-pointer">
+                CHAT WITH US
             </button>
+          </a>
 
           </div>
 

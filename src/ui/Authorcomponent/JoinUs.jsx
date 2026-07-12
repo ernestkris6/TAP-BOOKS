@@ -50,9 +50,12 @@ export default function JoinUs() {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-5">
 
-            <button className="bg-white text-stone-900 px-8 py-4 rounded-xs font-medium hover:px-10 transition-all duration-500 cursor-pointer">
-              Chat With US
+            <a href="https://wa.me/2347010757468?text=Hello%20TAP%20Books%2C%20I%20would%20like%20to%20make%20an%20inquiry%about%your%books" target="_blank" rel="noopener noreferrer">
+            <button 
+              className="bg-white text-stone-900 px-8 py-4 rounded-xs font-medium hover:px-10 transition-all duration-500 cursor-pointer">
+                CHAT WITH US
             </button>
+          </a>
 
             <button className="border border-white/30 px-8 py-4 rounded-xs hover:bg-white hover:text-stone-900 transition-all duration-500 cursor-pointer">
               Join US
