@@ -1,11 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import Counter from "../../helper/Counter";
 import coll6 from '../../assets/coll6.jpg'
 import coll7 from '../../assets/coll7.jpg'
 import coll8 from '../../assets/coll8.jpg'
 import coll5 from '../../assets/coll5.jpg'
 import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
 
 export default function Writing() {
 
