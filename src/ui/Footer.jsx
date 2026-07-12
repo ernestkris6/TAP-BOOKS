@@ -52,10 +52,6 @@ export default function Footer() {
         {/* Brand */}
         <div className="text-center font-serif">
           <Logo />
-          {/* <span className="block text-xs tracking-[0.3em] font-sans text-gray-600 mb-1">
-            GRACE
-          </span>
-          <span className="text-2xl md:text-3xl font-semibold">Bryant</span> */}
         </div>
 
         {/* Socials */}
