@@ -20,21 +20,27 @@ const teamMembers = [
     image: Temi,
     bio: "Adebiyi Temilorun Priscilla writes Children’s and Young Adults literature With a B.Ed. in Educational Management from Obafemi Awolowo University and a professional background in Human Resources (ACIPM), When she isn’t writing or watching children play, she is an aspiring pro athlete in volleyball and badminton. ",
   },
-
+  
   {
-    name: "Rolake Ogunfeitimi",
-    role: "Y.A Editor & Proof Reader",
-    image: rol,
-    bio: "Rolake Ogunfeitimi is a writer, communications professional, and creative storyteller with experience in media, branding, and strategic communications. She is passionate about meaningful storytelling, creativity, and using communication to inspire impact and connection. She enjoys editing, creative writing, and helping bring projects to life through thoughtful feedback and attention to detail. As a contribution to the team, she supports content development by reviewing and refining written materials, polishing copy, and ensuring clarity and consistency.",
+    name: "Adediran Progress",
+    role: "Children's Book Illustrator",
+    image: Adediran,
+    bio: "Adediran Progress Oluwatobiloba is a graduate of the department of Architecture O.A.U and an Illustrator with a passion for visual story telling and art.",
   },
-
+  
   {
     name: "Victor Pelumi Akintade",
     role: "Y.A Developmental & Line Editor/Legal Personnel",
     image: vic,
     bio: "Akintade Jesupelumi Victor is a Lawyer and Content Strategist that help brands build authority with the right kind of content. When he isn't writing and strategizing, he is reading a book, watching anime or discussing scriptures.",
   },
-
+  
+  {
+    name: "Rolake Ogunfeitimi",
+    role: "Y.A Editor & Proof Reader",
+    image: rol,
+    bio: "Rolake Ogunfeitimi is a writer, communications professional, and creative storyteller with experience in media, branding, and strategic communications. She is passionate about meaningful storytelling, creativity, and using communication to inspire impact and connection. She enjoys editing, creative writing, and helping bring projects to life through thoughtful feedback and attention to detail. As a contribution to the team, she supports content development by reviewing and refining written materials, polishing copy, and ensuring clarity and consistency.",
+  },
   {
     name: "Adewoyin Temiloluwa",
     role: "Children's Book Editor",
@@ -49,12 +55,6 @@ const teamMembers = [
     bio: "Joshua enjoys playing a lot of sports , volleyball included and fears God. He has a background in software engineering and spends most of the time working as a Q.A engineer. When not working, he is fun to have around and has a number of hobbies. He keeps himself company by watching movies/series , playing games , conversations etc.",
   },
 
-  {
-    name: "Adediran Progress",
-    role: "Children's Book Illustrator",
-    image: Adediran,
-    bio: "Adediran Progress Oluwatobiloba is a graduate of the department of Architecture O.A.U and an Illustrator with a passion for visual story telling and art.",
-  },
 ];
 
 
