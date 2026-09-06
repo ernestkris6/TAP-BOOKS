@@ -1,4 +1,3 @@
-import React from 'react'
 import { motion } from "framer-motion";
 import Temi from "../../assets/Temilorun.jpg";
 import rol from "../../assets/rol.jpg";

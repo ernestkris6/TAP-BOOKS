@@ -4,7 +4,7 @@ import { RiDoubleQuotesL } from "react-icons/ri";
 export default function AboutReaders() {
   const readers = [
     {
-      name: "Sarah Johnson",
+      name: "Ernest Chris",
       text: "TAP Books helped me rediscover my love for reading. Their collection is amazing and delivery is always fast.",
     },
     {
@@ -16,7 +16,7 @@ export default function AboutReaders() {
       text: "The platform feels personal and inspiring. I always find books that help me grow professionally and personally.",
     },
     {
-      name: "David Clark",
+      name: "David OlaOluwa",
       text: "Excellent customer service and a fantastic range of books. TAP Books stands out from other bookstores.",
     },
   ];
