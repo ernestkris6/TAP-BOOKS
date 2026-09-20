@@ -7,6 +7,7 @@ import BookDetails from "./ui/Bookscomponent/BookDetails";
 import Contact from "./pages/Contact";
 import Author from "./pages/Author";
 import Checkout from "./pages/Checkout";
+import Error from "./pages/Error";
 import Footer from "./ui/Footer"
 import ScrollToTop from "./ScrollToTop";
 
@@ -20,10 +21,12 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="books" element={<Books />} />
-          <Route path="/books/:id" element={<BookDetails />} />
+          <Route path="books/:id" element={<BookDetails />} />
           <Route path="contact" element={<Contact />} />
           <Route path="author" element={<Author />} />
           <Route path="checkout" element={<Checkout />} />
+
+          <Route path="*" element={<Error />} />
         </Routes>
         <Footer />
       </BrowserRouter>
