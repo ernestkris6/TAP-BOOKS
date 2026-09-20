@@ -146,15 +146,20 @@ export default function Books() {
 
                 <div className="flex flex-wrap gap-4">
 
-                  <button className="group bg-stone-900 hover:bg-black text-white px-7 py-3.5 rounded-lg transition duration-300 flex items-center gap-2 cursor-pointer">
+                  <a 
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSeHVbOju96gTUqA-koFsO8ozwmpFdB1g5Naq6npONHt-zsE-A/viewform?usp=dialog14:02" 
+                    target="_blank">
+                  <button 
+                      className="group bg-stone-900 hover:bg-black text-white px-7 py-3.5 rounded-lg transition duration-300 flex items-center gap-2 cursor-pointer">
 
-                    Add To Cart
+                        Make Purchase
 
                     <span className="group-hover:translate-x-1 transition">
                       →
                     </span>
 
                   </button>
+                  </a>
 
                   <Link
                     to={`/books/${book.id}`}
