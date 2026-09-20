@@ -75,7 +75,7 @@ export default function ErrorPage () {
         </motion.p>
 
         {/* Button */}
-        <motion.div
+        <motion.button
           initial={{ opacity: 0, y: 15 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.4 }}
@@ -91,7 +91,7 @@ export default function ErrorPage () {
               text-white
               px-6
               py-3
-              rounded-full
+              rounded-xs
               text-sm
               font-medium
               transition-colors
@@ -101,7 +101,7 @@ export default function ErrorPage () {
             <FiArrowLeft size={17} />
             Back to Home
           </Link>
-        </motion.div>
+        </motion.button>
 
       </div>
     </section>
